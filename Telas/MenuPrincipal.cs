@@ -59,5 +59,15 @@ namespace Pizza_Shu
             exc.ShowDialog();
             this.Close();
         }//botão excluir
+
+        private void buttonSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }//botão sair
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }//
     }//fim da classe
 }//fim do projeto

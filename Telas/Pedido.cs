@@ -1,4 +1,5 @@
-﻿using Pizza_Shu.DAOs;
+﻿using MySql.Data.MySqlClient;
+using Pizza_Shu.DAOs;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,26 +9,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace Pizza_Shu.Telas
 {
-    public partial class consultarUsuario : Form
+    public partial class Pedido : Form
     {
         MenuPrincipal menu;
-        DAOusuario Usuario;
-        public consultarUsuario()
+        //DAOPedido pedido;
+        public Pedido()
         {
             InitializeComponent();
-            Usuario = new DAOusuario();
-            CarregarUsuario();
+            //Usuario = new DAOusuario();
+            //CarregarUsuario();
         }//fim do construtor
 
-        public void CarregarUsuario()
+        private void Pedido_Load(object sender, EventArgs e)
         {
-            DataTable tabela = Usuario.ConsultarUsuario();
 
-            dataGridView1.DataSource = tabela;
+        }//menu
+
+        //public void CarregarUsuario()
+        //{
+           // DataTable tabela = Usuario.ConsultarUsuario();
+
+            // dataGridView1.DataSource = tabela;
 
             // Ajustes visuais
             dataGridView1.AllowUserToAddRows = false;
@@ -37,29 +42,19 @@ namespace Pizza_Shu.Telas
 
             dataGridView1.AutoSizeColumnsMode =
                 DataGridViewAutoSizeColumnsMode.Fill;
-        }//carregar usuários
-
-        private void consultarUsuario_Load(object sender, EventArgs e)
-        {
-
-        }//menu
-
+        //}
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }//data grid view
 
-        private void buttonCONVoltar_Click(object sender, EventArgs e)
+        private void buttonPedidoVoltar_Click(object sender, EventArgs e)
         {
             menu = new MenuPrincipal();
             this.Hide();
             menu.ShowDialog();
             this.Hide();
-        }//botão voltar
+        }// botão voltar
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }//
     }//fim da classe
 }//fim do projeto
