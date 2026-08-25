@@ -121,10 +121,16 @@
   <data name="fundo do orçamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo do orçamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo pizza do shu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo pizza do shu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pizza_shu menu principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza_shu menu principal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo pizza do shu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo pizza do shu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizzaria_shu menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzaria_shu menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -135,3 +135,4 @@ C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Evento.resource
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Evento.resources
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Pedido.resources
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Login.resources
+C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Login.resources

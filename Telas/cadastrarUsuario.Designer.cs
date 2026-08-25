@@ -181,7 +181,7 @@
             this.buttonCADVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCADVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonCADVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCADVoltar.Location = new System.Drawing.Point(1377, 754);
+            this.buttonCADVoltar.Location = new System.Drawing.Point(1245, 697);
             this.buttonCADVoltar.Name = "buttonCADVoltar";
             this.buttonCADVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonCADVoltar.TabIndex = 13;
@@ -206,7 +206,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo_do_orçamento;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1502, 806);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.maskedTextBoxTelefone);
             this.Controls.Add(this.buttonCADVoltar);
             this.Controls.Add(this.buttonCadastrar);

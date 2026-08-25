@@ -201,5 +201,11 @@
   <ItemGroup>
     <None Include="Resources\fundo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza_shu menu principal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzaria_shu menu.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

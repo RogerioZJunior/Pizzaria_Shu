@@ -42,7 +42,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(694, 255);
+            this.label1.Location = new System.Drawing.Point(628, 226);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(186, 31);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.textBoxEXCCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxEXCCodigo.BackColor = System.Drawing.Color.Ivory;
             this.textBoxEXCCodigo.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEXCCodigo.Location = new System.Drawing.Point(655, 334);
+            this.textBoxEXCCodigo.Location = new System.Drawing.Point(589, 305);
             this.textBoxEXCCodigo.Name = "textBoxEXCCodigo";
             this.textBoxEXCCodigo.Size = new System.Drawing.Size(238, 35);
             this.textBoxEXCCodigo.TabIndex = 32;
@@ -64,7 +64,7 @@
             this.buttonEXCExcluir.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEXCExcluir.BackColor = System.Drawing.Color.Ivory;
             this.buttonEXCExcluir.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEXCExcluir.Location = new System.Drawing.Point(899, 331);
+            this.buttonEXCExcluir.Location = new System.Drawing.Point(833, 302);
             this.buttonEXCExcluir.Name = "buttonEXCExcluir";
             this.buttonEXCExcluir.Size = new System.Drawing.Size(113, 40);
             this.buttonEXCExcluir.TabIndex = 33;
@@ -78,7 +78,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(568, 339);
+            this.label7.Location = new System.Drawing.Point(502, 310);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(70, 21);
             this.label7.TabIndex = 32;
@@ -89,7 +89,7 @@
             this.buttonEXCVoltar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEXCVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonEXCVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEXCVoltar.Location = new System.Drawing.Point(723, 424);
+            this.buttonEXCVoltar.Location = new System.Drawing.Point(657, 395);
             this.buttonEXCVoltar.Name = "buttonEXCVoltar";
             this.buttonEXCVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonEXCVoltar.TabIndex = 34;
@@ -103,7 +103,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo_do_orçamento;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1502, 806);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonEXCVoltar);
             this.Controls.Add(this.textBoxEXCCodigo);
             this.Controls.Add(this.buttonEXCExcluir);

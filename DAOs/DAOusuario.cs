@@ -291,7 +291,39 @@ namespace Pizza_Shu.DAOs
             }
         }//fim deletar
 
+        public DataTable Login(string email, string senha)
+        {
+            DataTable tabela = new DataTable();
 
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"SELECT codigo, nome, telefone,
+                                  endereco, email, senha, tipo
+                           FROM usuario
+                           WHERE email = @email
+                           AND senha = @senha
+                           AND tipo = 1";
+
+                    MySqlCommand comando = new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@email", email);
+                    comando.Parameters.AddWithValue("@senha", senha);
+
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter(comando);
+
+                    adapter.Fill(tabela);
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao consultar login: " + erro.Message);
+            }
+
+            return tabela;
+        }//fim do login
 
     }//fim da classe
 }//fim do projeto

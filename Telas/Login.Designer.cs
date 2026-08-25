@@ -102,6 +102,7 @@
             this.textBoxLoginSenha.Name = "textBoxLoginSenha";
             this.textBoxLoginSenha.Size = new System.Drawing.Size(310, 35);
             this.textBoxLoginSenha.TabIndex = 5;
+            this.textBoxLoginSenha.UseSystemPasswordChar = true;
             this.textBoxLoginSenha.TextChanged += new System.EventHandler(this.textBoxLoginSenha_TextChanged);
             // 
             // buttonEntrar
@@ -120,9 +121,9 @@
             this.buttonLoginSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonLoginSair.BackColor = System.Drawing.SystemColors.Window;
             this.buttonLoginSair.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLoginSair.Location = new System.Drawing.Point(640, 697);
+            this.buttonLoginSair.Location = new System.Drawing.Point(630, 626);
             this.buttonLoginSair.Name = "buttonLoginSair";
-            this.buttonLoginSair.Size = new System.Drawing.Size(113, 40);
+            this.buttonLoginSair.Size = new System.Drawing.Size(139, 49);
             this.buttonLoginSair.TabIndex = 8;
             this.buttonLoginSair.Text = "Sair";
             this.buttonLoginSair.UseVisualStyleBackColor = false;

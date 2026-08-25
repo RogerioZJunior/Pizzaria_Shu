@@ -40,13 +40,41 @@ namespace Pizza_Shu.Telas
 
         private void buttonEntrar_Click(object sender, EventArgs e)
         {
-           
-                menu = new MenuPrincipal();
-                this.Hide();
-                menu.ShowDialog();
-                this.Hide();
+            if (textBoxLoginEmail.Text == "" || textBoxLoginSenha.Text == "")
+            {
+                MessageBox.Show("Preencha os campos");
+            }
+            else
+            {
 
+                string email = textBoxLoginEmail.Text.Trim();
+                string senha = textBoxLoginSenha.Text;
+
+                DataTable tabela = Usuario.Login(email, senha);
+
+                if (tabela.Rows.Count > 0)
+                {
+                    MessageBox.Show("Login realizado com sucesso!");
+
+                    menu = new MenuPrincipal();
+                    this.Hide();
+                    menu.ShowDialog();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("E-mail ou senha inválidos, ou usuário sem permissão.");
+                }
+                LimparCampos();
+            }
         }//botão entrar
+
+        //Limpar os campos
+        public void LimparCampos()
+        {
+            textBoxLoginEmail.Text = "";
+            textBoxLoginSenha.Text = "";
+        }//fim do método
 
         private void buttonLoginSair_Click(object sender, EventArgs e)
         {

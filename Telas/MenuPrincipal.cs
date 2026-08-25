@@ -20,6 +20,7 @@ namespace Pizza_Shu
         excluirUsuario   exc;
         Pedido        pedido;
         Evento        evento;
+        Login          login;
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -79,7 +80,10 @@ namespace Pizza_Shu
 
         private void buttonSair_Click(object sender, EventArgs e)
         {
-            this.Close();
+            login = new Login();
+            this.Hide();
+            login.ShowDialog();
+            this.Hide();
         }//botão sair
 
         private void label2_Click(object sender, EventArgs e)
@@ -87,5 +91,6 @@ namespace Pizza_Shu
 
         }//
 
+     
     }//fim da classe
 }//fim do projeto
