@@ -132,3 +132,6 @@ C:\Users\lea\source\repos\Pizzaria_Shu\bin\Debug\System.Runtime.CompilerServices
 C:\Users\lea\source\repos\Pizzaria_Shu\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.csproj.Up2Date
 C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Evento.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Evento.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Pedido.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.Login.resources

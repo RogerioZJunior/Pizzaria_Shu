@@ -1,0 +1,168 @@
+﻿namespace Pizza_Shu.Telas
+{
+    partial class Login
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxLoginEmail = new System.Windows.Forms.TextBox();
+            this.textBoxLoginSenha = new System.Windows.Forms.TextBox();
+            this.buttonEntrar = new System.Windows.Forms.Button();
+            this.buttonLoginSair = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Pizza_Shu.Properties.Resources.logo_pizza_do_shu;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(469, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(453, 225);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(624, 268);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 31);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Bem-vindo!";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
+            this.label2.Location = new System.Drawing.Point(463, 338);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(84, 31);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Email:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F);
+            this.label3.Location = new System.Drawing.Point(460, 421);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 31);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Senha:";
+            // 
+            // textBoxLoginEmail
+            // 
+            this.textBoxLoginEmail.BackColor = System.Drawing.SystemColors.Window;
+            this.textBoxLoginEmail.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.textBoxLoginEmail.Location = new System.Drawing.Point(563, 338);
+            this.textBoxLoginEmail.Name = "textBoxLoginEmail";
+            this.textBoxLoginEmail.Size = new System.Drawing.Size(310, 35);
+            this.textBoxLoginEmail.TabIndex = 4;
+            this.textBoxLoginEmail.TextChanged += new System.EventHandler(this.textBoxLoginEmail_TextChanged);
+            // 
+            // textBoxLoginSenha
+            // 
+            this.textBoxLoginSenha.BackColor = System.Drawing.SystemColors.Window;
+            this.textBoxLoginSenha.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.textBoxLoginSenha.Location = new System.Drawing.Point(563, 417);
+            this.textBoxLoginSenha.Name = "textBoxLoginSenha";
+            this.textBoxLoginSenha.Size = new System.Drawing.Size(310, 35);
+            this.textBoxLoginSenha.TabIndex = 5;
+            this.textBoxLoginSenha.TextChanged += new System.EventHandler(this.textBoxLoginSenha_TextChanged);
+            // 
+            // buttonEntrar
+            // 
+            this.buttonEntrar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEntrar.Location = new System.Drawing.Point(630, 481);
+            this.buttonEntrar.Name = "buttonEntrar";
+            this.buttonEntrar.Size = new System.Drawing.Size(139, 49);
+            this.buttonEntrar.TabIndex = 6;
+            this.buttonEntrar.Text = "Entrar";
+            this.buttonEntrar.UseVisualStyleBackColor = true;
+            this.buttonEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
+            // 
+            // buttonLoginSair
+            // 
+            this.buttonLoginSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonLoginSair.BackColor = System.Drawing.SystemColors.Window;
+            this.buttonLoginSair.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLoginSair.Location = new System.Drawing.Point(640, 697);
+            this.buttonLoginSair.Name = "buttonLoginSair";
+            this.buttonLoginSair.Size = new System.Drawing.Size(113, 40);
+            this.buttonLoginSair.TabIndex = 8;
+            this.buttonLoginSair.Text = "Sair";
+            this.buttonLoginSair.UseVisualStyleBackColor = false;
+            this.buttonLoginSair.Click += new System.EventHandler(this.buttonLoginSair_Click);
+            // 
+            // Login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.buttonLoginSair);
+            this.Controls.Add(this.buttonEntrar);
+            this.Controls.Add(this.textBoxLoginSenha);
+            this.Controls.Add(this.textBoxLoginEmail);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Login";
+            this.Text = "Login";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Login_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBoxLoginEmail;
+        private System.Windows.Forms.TextBox textBoxLoginSenha;
+        private System.Windows.Forms.Button buttonEntrar;
+        private System.Windows.Forms.Button buttonLoginSair;
+    }
+}

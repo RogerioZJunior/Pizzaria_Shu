@@ -124,6 +124,12 @@
     <Compile Include="Telas\excluirUsuario.Designer.cs">
       <DependentUpon>excluirUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\excluirUsuario.resx">
       <DependentUpon>excluirUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -188,6 +197,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo pizza do shu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
