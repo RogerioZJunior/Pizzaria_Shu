@@ -12,29 +12,24 @@ using System.Windows.Forms;
 
 namespace Pizza_Shu.Telas
 {
-    public partial class Pedido : Form
+    public partial class Evento : Form
     {
         MenuPrincipal menu;
         DAOusuario Usuario;
-        public Pedido()
+        public Evento()
         {
             InitializeComponent();
             Usuario = new DAOusuario();
-            CarregarProduto();
+            CarregarEvento();
         }//fim do construtor
 
-        private void Pedido_Load(object sender, EventArgs e)
+        public void CarregarEvento()
         {
+            DataTable tabela = Usuario.ConsultarEvento();
 
-        }//menu
+            dataGridView1.DataSource = tabela;
 
-        public void CarregarProduto()
-         {
-            DataTable tabela = Usuario.ConsultarPedido();
-
-             dataGridView1.DataSource = tabela;
-
-             //Ajustes visuais
+            // Ajustes visuais
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.AllowUserToResizeRows = false;
@@ -42,19 +37,19 @@ namespace Pizza_Shu.Telas
 
             dataGridView1.AutoSizeColumnsMode =
                 DataGridViewAutoSizeColumnsMode.Fill;
-        }
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        }//carregar evento
+
+        private void Evento_Load(object sender, EventArgs e)
         {
 
-        }//data grid view
+        }//menu
 
-        private void buttonPedidoVoltar_Click(object sender, EventArgs e)
+        private void buttonEVEVoltar_Click(object sender, EventArgs e)
         {
-            menu = new MenuPrincipal();
+             menu = new MenuPrincipal();
             this.Hide();
             menu.ShowDialog();
             this.Hide();
-        }// botão voltar
-
+        }//botão menu
     }//fim da classe
 }//fim do projeto

@@ -40,7 +40,7 @@
             this.buttonPedidoVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.buttonPedidoVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonPedidoVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPedidoVoltar.Location = new System.Drawing.Point(750, 714);
+            this.buttonPedidoVoltar.Location = new System.Drawing.Point(600, 658);
             this.buttonPedidoVoltar.Name = "buttonPedidoVoltar";
             this.buttonPedidoVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonPedidoVoltar.TabIndex = 5;
@@ -56,7 +56,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 83);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1478, 609);
+            this.dataGridView1.Size = new System.Drawing.Size(1346, 552);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -66,7 +66,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(745, 53);
+            this.label1.Location = new System.Drawing.Point(625, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 27);
             this.label1.TabIndex = 3;
@@ -78,7 +78,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo_do_orçamento;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1502, 806);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonPedidoVoltar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);

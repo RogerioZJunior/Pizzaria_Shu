@@ -18,6 +18,8 @@ namespace Pizza_Shu
         consultarUsuario con;
         atualizarUsuario atu;
         excluirUsuario   exc;
+        Pedido        pedido;
+        Evento        evento;
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -59,6 +61,21 @@ namespace Pizza_Shu
             exc.ShowDialog();
             this.Close();
         }//botão excluir
+        private void buttonPedidos_Click(object sender, EventArgs e)
+        {
+            pedido = new Pedido();
+            this.Hide();
+            pedido.ShowDialog();
+            this.Close();
+        }//botão pedido
+
+        private void buttonEventos_Click(object sender, EventArgs e)
+        {
+            evento = new Evento();
+            this.Hide();
+            evento.ShowDialog();
+            this.Close();
+        }//botão evento
 
         private void buttonSair_Click(object sender, EventArgs e)
         {
@@ -69,5 +86,6 @@ namespace Pizza_Shu
         {
 
         }//
+
     }//fim da classe
 }//fim do projeto

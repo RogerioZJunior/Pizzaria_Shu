@@ -90,6 +90,86 @@ namespace Pizza_Shu.DAOs
             return tabela;
         }//fim consultar
 
+        public DataTable ConsultarPedido()
+        {
+            DataTable tabela = new DataTable();
+
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"
+                    SELECT 
+                        p.codigo AS Pedido,
+                        p.data_hora AS Data,
+                        p.statuss AS Status,
+                        p.quantidade AS Quantidade,
+                        p.valor AS Valor,
+                
+                        pr.nome AS Produto,
+                        pr.categoria AS Categoria,
+                        p.usuario_codigo AS Usuario
+
+                    FROM pedido p
+
+                    INNER JOIN pedido_produto pp
+                        ON p.codigo = pp.pedido_codigo
+
+                    INNER JOIN produto pr
+                        ON pp.produto_codigo = pr.codigo
+
+                    ORDER BY p.codigo DESC";
+
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter(sql, conexao);
+
+                    adapter.Fill(tabela);
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao consultar pedidos: " + erro.Message);
+            }
+
+            return tabela;
+        }// fim consultar pedido
+
+        public DataTable ConsultarEvento()
+        {
+            DataTable tabela = new DataTable();
+
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"
+                    SELECT 
+                        e.codigo AS Codigo,
+                        e.nome_evento AS 'Nome do Evento',
+                        e.data_evento AS Data,
+                        e.orcamento AS Orçamento,
+                        e.quantidade_pessoa AS 'Quantidade de Pessoas',
+                        e.statuss AS Status,
+                        e.usuario_codigo AS Usuário
+               
+                    FROM evento e
+                    ORDER BY e.codigo DESC";
+
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter(sql, conexao);
+
+                    adapter.Fill(tabela);
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao consultar eventos: " + erro.Message);
+            }
+
+            return tabela;
+        }// fim consultar evento
+
+
         // Buscar
         public DataTable BuscarUsuario(int codigo)
         {
