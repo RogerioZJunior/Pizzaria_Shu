@@ -199,7 +199,67 @@ namespace Pizza_Shu.DAOs
             }
 
             return tabela;
-        }//fim buscar
+        }//fim buscar usuário
+
+        public DataTable BuscarPedido(int codigo)
+        {
+            DataTable tabela = new DataTable();
+
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"SELECT * FROM pedido
+                                   WHERE codigo = @codigo";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@codigo", codigo);
+
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter(comando);
+
+                    adapter.Fill(tabela);
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao buscar: " + erro.Message);
+            }
+
+            return tabela;
+        }//fim buscar pedido
+
+        public DataTable BuscarEvento(int codigo)
+        {
+            DataTable tabela = new DataTable();
+
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"SELECT * FROM evento
+                                   WHERE codigo = @codigo";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@codigo", codigo);
+
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter(comando);
+
+                    adapter.Fill(tabela);
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao buscar: " + erro.Message);
+            }
+
+            return tabela;
+        }//fim buscar evento
 
         // Atualizar
         public string AtualizarUsuario(
@@ -254,7 +314,86 @@ namespace Pizza_Shu.DAOs
             {
                 return "Erro ao atualizar: " + erro.Message;
             }
-        }//fim atualizar
+        }//fim atualizar usuário
+
+        public string AtualizarPedido(
+            int codigo,
+            string statuss)
+        {
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+
+                    string sql = @"UPDATE pedido
+                    SET   statuss = @statuss                     
+                                                
+                    WHERE codigo = @codigo";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@codigo", codigo);
+                    comando.Parameters.AddWithValue("@statuss", statuss);
+   
+                    int linhasAfetadas =
+                        comando.ExecuteNonQuery();
+
+                    if (linhasAfetadas > 0)
+                    {
+                        return "Pedido atualizado com sucesso!";
+                    }
+                    else
+                    {
+                        return "Nenhuma alteração foi feita.";
+                    }
+                }
+            }
+            catch (Exception erro)
+            {
+                return "Erro ao atualizar: " + erro.Message;
+            }
+        }//fim atualizar Pedido
+
+
+        public string AtualizarEvento(
+          int codigo,
+          string statuss)
+        {
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+
+                    string sql = @"UPDATE evento
+                    SET   statuss = @statuss                     
+                                                
+                    WHERE codigo = @codigo";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@codigo", codigo);
+                    comando.Parameters.AddWithValue("@statuss", statuss);
+
+                    int linhasAfetadas =
+                        comando.ExecuteNonQuery();
+
+                    if (linhasAfetadas > 0)
+                    {
+                        return "Evento atualizado com sucesso!";
+                    }
+                    else
+                    {
+                        return "Nenhuma alteração foi feita.";
+                    }
+                }
+            }
+            catch (Exception erro)
+            {
+                return "Erro ao atualizar: " + erro.Message;
+            }
+        }//fim atualizar Pedido
 
 
         // DELETAR

@@ -14,13 +14,14 @@ namespace Pizza_Shu
 {
     public partial class MenuPrincipal : Form
     {
-        cadastrarUsuario cad;
-        consultarUsuario con;
-        atualizarUsuario atu;
-        excluirUsuario   exc;
-        Pedido        pedido;
-        Evento        evento;
-        Login          login;
+        cadastrarUsuario  cad;
+        consultarUsuario  con;
+        atualizarUsuario  atu;
+        excluirUsuario    exc;
+        Pedido         pedido;
+        Evento         evento;
+        Login           login;
+       // Log               log;
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -78,6 +79,13 @@ namespace Pizza_Shu
             this.Close();
         }//botão evento
 
+        private void buttonLogs_Click(object sender, EventArgs e)
+        {
+          //  log = new log();
+            this.Hide();
+            // log.ShowDialog();
+            this.Hide();
+        }//botão logs
         private void buttonSair_Click(object sender, EventArgs e)
         {
             login = new Login();
@@ -91,6 +99,5 @@ namespace Pizza_Shu
 
         }//
 
-     
     }//fim da classe
 }//fim do projeto

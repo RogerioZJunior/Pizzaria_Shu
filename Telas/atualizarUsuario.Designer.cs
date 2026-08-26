@@ -62,6 +62,7 @@
             // buttonAtualizar
             // 
             this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAtualizar.Location = new System.Drawing.Point(153, 567);
             this.buttonAtualizar.Name = "buttonAtualizar";
@@ -204,6 +205,7 @@
             // buttonProcurar
             // 
             this.buttonProcurar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonProcurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProcurar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonProcurar.Location = new System.Drawing.Point(368, 157);
             this.buttonProcurar.Name = "buttonProcurar";
@@ -227,6 +229,7 @@
             // 
             this.buttonATUVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonATUVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonATUVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonATUVoltar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonATUVoltar.Location = new System.Drawing.Point(1377, 754);
             this.buttonATUVoltar.Name = "buttonATUVoltar";
@@ -240,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo_do_orçamento;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1502, 806);
             this.Controls.Add(this.buttonATUVoltar);

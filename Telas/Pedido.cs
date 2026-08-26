@@ -20,7 +20,7 @@ namespace Pizza_Shu.Telas
         {
             InitializeComponent();
             Usuario = new DAOusuario();
-            CarregarProduto();
+            CarregarPedido();
         }//fim do construtor
 
         private void Pedido_Load(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace Pizza_Shu.Telas
 
         }//menu
 
-        public void CarregarProduto()
+        public void CarregarPedido()
          {
             DataTable tabela = Usuario.ConsultarPedido();
 
@@ -47,6 +47,75 @@ namespace Pizza_Shu.Telas
         {
 
         }//data grid view
+        private void textBoxCodigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }//textbox codigo
+
+        private void buttonSelecionar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBoxCodigo.Text))
+            {
+                MessageBox.Show("Preencha o Código");
+                textBoxCodigo.Focus();
+                return;
+            }
+
+            if (!int.TryParse(textBoxCodigo.Text, out int codigo))
+            {
+                MessageBox.Show("Código inválido");
+                textBoxCodigo.Focus();
+                return;
+            }
+
+            try
+            {
+                DAOusuario dao = new DAOusuario();
+                DataTable tabela = dao.BuscarPedido(codigo);
+
+                if (tabela.Rows.Count > 0)
+                {
+                    DataRow linha = tabela.Rows[0];
+
+                    comboBox1.Text = linha["statuss"].ToString();
+               
+                }
+                else
+                {
+                    MessageBox.Show("Pedido não encontrado");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao buscar: " + ex.Message);
+            }
+        }//botão selecionar
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }// comboBox atualizar
+
+        private void buttonAtualizar_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(textBoxCodigo.Text, out int codigo))
+            {
+                MessageBox.Show("Código inválido!");
+                return;
+            }
+
+            string resultado = Usuario.AtualizarPedido(
+                codigo,
+                 comboBox1.Text
+            );
+
+            CarregarPedido();
+
+            MessageBox.Show(resultado);
+
+            textBoxCodigo.Clear();
+        
+        }//botão atualizar
 
         private void buttonPedidoVoltar_Click(object sender, EventArgs e)
         {

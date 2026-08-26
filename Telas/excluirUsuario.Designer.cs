@@ -63,6 +63,7 @@
             // 
             this.buttonEXCExcluir.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEXCExcluir.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEXCExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXCExcluir.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEXCExcluir.Location = new System.Drawing.Point(833, 302);
             this.buttonEXCExcluir.Name = "buttonEXCExcluir";
@@ -88,6 +89,7 @@
             // 
             this.buttonEXCVoltar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEXCVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEXCVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXCVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEXCVoltar.Location = new System.Drawing.Point(657, 395);
             this.buttonEXCVoltar.Name = "buttonEXCVoltar";
@@ -101,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo_do_orçamento;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonEXCVoltar);

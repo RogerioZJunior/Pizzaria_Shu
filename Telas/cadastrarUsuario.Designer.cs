@@ -167,6 +167,7 @@
             // buttonCadastrar
             // 
             this.buttonCadastrar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCadastrar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCadastrar.Location = new System.Drawing.Point(146, 579);
             this.buttonCadastrar.Name = "buttonCadastrar";
@@ -180,6 +181,7 @@
             // 
             this.buttonCADVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCADVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCADVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCADVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCADVoltar.Location = new System.Drawing.Point(1245, 697);
             this.buttonCADVoltar.Name = "buttonCADVoltar";
@@ -204,7 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo_do_orçamento;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.maskedTextBoxTelefone);

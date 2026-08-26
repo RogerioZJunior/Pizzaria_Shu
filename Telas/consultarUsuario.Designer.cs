@@ -41,7 +41,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(638, 43);
+            this.label1.Location = new System.Drawing.Point(601, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 27);
             this.label1.TabIndex = 0;
@@ -64,8 +64,9 @@
             // 
             this.buttonCONVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.buttonCONVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCONVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCONVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCONVoltar.Location = new System.Drawing.Point(684, 647);
+            this.buttonCONVoltar.Location = new System.Drawing.Point(650, 631);
             this.buttonCONVoltar.Name = "buttonCONVoltar";
             this.buttonCONVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonCONVoltar.TabIndex = 2;
@@ -77,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo_do_orçamento;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonCONVoltar);

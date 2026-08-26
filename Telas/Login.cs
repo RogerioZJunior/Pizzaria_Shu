@@ -63,7 +63,7 @@ namespace Pizza_Shu.Telas
                 }
                 else
                 {
-                    MessageBox.Show("E-mail ou senha inválidos, ou usuário sem permissão.");
+                    MessageBox.Show("usuário sem permissão.");
                 }
                 LimparCampos();
             }
@@ -80,5 +80,10 @@ namespace Pizza_Shu.Telas
         {
             this.Close();
         }//botão sair
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }//logo
     }//fim da classe
 }//fim do projeto

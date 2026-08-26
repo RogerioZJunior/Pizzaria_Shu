@@ -63,6 +63,16 @@ namespace Pizza_Shu.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cartaozinho_feito_com_amor {
+            get {
+                object obj = ResourceManager.GetObject("cartaozinho feito com amor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo {
             get {
                 object obj = ResourceManager.GetObject("fundo", resourceCulture);
@@ -73,9 +83,29 @@ namespace Pizza_Shu.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("fundo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo_do_orçamento {
             get {
                 object obj = ResourceManager.GetObject("fundo do orçamento", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_bem_vindo_de_volta_pra_colocar_no_login {
+            get {
+                object obj = ResourceManager.GetObject("logo bem vindo de volta pra colocar no login", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
