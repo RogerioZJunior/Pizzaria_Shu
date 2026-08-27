@@ -26,12 +26,12 @@ namespace Pizza_Shu
         Evento         evento;
         Login           login;
         log               log;
-        private int usuarioCodigo;
+
         public MenuPrincipal(int codigoUsuario)
         {
             InitializeComponent();
             Log = new LogDAO();
-            usuarioCodigo = codigoUsuario;
+            UsuarioCodigo = codigoUsuario;
         }//fim do construtor
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
@@ -88,23 +88,19 @@ namespace Pizza_Shu
 
         private void buttonLogs_Click(object sender, EventArgs e)
         {
-            log = new log();
+            log log = new log(UsuarioCodigo);
             this.Hide();
             log.ShowDialog();
-            this.Hide();
+            this.Show();
         }//botão logs
         private void buttonSair_Click(object sender, EventArgs e)
         {
-            Login login = new Login(UsuarioCodigo);
-            this.Hide();
-            login.ShowDialog();
-
             Log.InserirLog(
-                 usuarioCodigo,
-                 "Fez Logout " 
-                 );
+            UsuarioCodigo,
+            "Fez Logout" 
+            );
 
-            this.Show();
+            this.Close();
         }//botão sair
 
         private void label2_Click(object sender, EventArgs e)

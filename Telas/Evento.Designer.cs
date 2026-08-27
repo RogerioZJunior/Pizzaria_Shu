@@ -172,9 +172,9 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(1218, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 433);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 61);
+            this.pictureBox1.Size = new System.Drawing.Size(284, 226);
             this.pictureBox1.TabIndex = 63;
             this.pictureBox1.TabStop = false;
             // 

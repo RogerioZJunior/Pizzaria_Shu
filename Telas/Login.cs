@@ -18,15 +18,13 @@ namespace Pizza_Shu.Telas
         LogDAO Log;
         MenuPrincipal menu;
         DAOusuario Usuario;
-        private int usuarioCodigo;  
-        public Login(int codigoUsuario)
+        private int usuarioCodigo;
+        public Login()
         {
             InitializeComponent();
             Usuario = new DAOusuario();
             Log = new LogDAO();
-            usuarioCodigo = codigoUsuario;
-        }//fim do construtor
-
+        }
         private void Login_Load(object sender, EventArgs e)
         {
 
@@ -47,43 +45,47 @@ namespace Pizza_Shu.Telas
             if (textBoxLoginEmail.Text == "" || textBoxLoginSenha.Text == "")
             {
                 MessageBox.Show("Preencha os campos");
+                return;
+            }
+
+            string email = textBoxLoginEmail.Text.Trim();
+            string senha = textBoxLoginSenha.Text;
+
+            DataTable tabela = Usuario.Login(email, senha);
+
+            if (tabela.Rows.Count > 0)
+            {
+                int codigoUsuario = Convert.ToInt32(tabela.Rows[0]["codigo"]);
+
+                //MessageBox.Show("Código do usuário: " + codigoUsuario);   
+
+                // Guarda o usuário que acabou de entrar
+                usuarioCodigo = codigoUsuario;
+
+                // Registra LOGIN
+                Log.InserirLog(
+                    codigoUsuario,
+                    "Fez Login: " + email
+                );
+
+                MessageBox.Show("Login realizado com sucesso!");
+
+                // Passa o código para o MenuPrincipal
+                menu = new MenuPrincipal(codigoUsuario);
+
+                this.Hide();
+
+                menu.ShowDialog();
+
+                this.Show();
             }
             else
             {
-                string email = textBoxLoginEmail.Text.Trim();
-                string senha = textBoxLoginSenha.Text;
-
-                DataTable tabela = Usuario.Login(email, senha);
-
-                if (tabela.Rows.Count > 0)
-                {
-                    MessageBox.Show("Login realizado com sucesso!");
-
-                    // Pega o código do usuário que fez login
-                    int codigoUsuario = Convert.ToInt32(tabela.Rows[0]["codigo"]);
-
-                    // Cria o MenuPrincipal
-                    // ERRO ->  menu = new MenuPrincipal();
-
-                    // Passa o código do usuário para o MenuPrincipal
-                    menu.UsuarioCodigo = codigoUsuario;
-
-                    this.Hide();
-                    menu.ShowDialog();
-                }
-                else
-                {
-                    MessageBox.Show("Usuário sem permissão.");
-                }
-
-                Log.InserirLog(
-                   usuarioCodigo,
-                   "Fez Login: " + email
-                   );
-
-                LimparCampos();
+                MessageBox.Show("Usuário sem permissão.");
             }
-        }//botão entrar
+
+            LimparCampos();
+        }//botão entrar 
 
         //Limpar os campos
         public void LimparCampos()

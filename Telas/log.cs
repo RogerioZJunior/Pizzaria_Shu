@@ -14,12 +14,19 @@ namespace Pizza_Shu.Telas
 {
     public partial class log : Form
     {
-        MenuPrincipal menu;
         LogDAO         Log;
-        public log()
+        DAOusuario Usuario;
+
+        private int usuarioCodigo;
+        public log(int codigoUsuario)
         {
             InitializeComponent();
+
             Log = new LogDAO();
+            Usuario = new DAOusuario();
+
+            usuarioCodigo = codigoUsuario;
+
             CarregarLog();
         }//fim do construtor
 
@@ -53,10 +60,7 @@ namespace Pizza_Shu.Telas
 
         private void buttonLogVoltar_Click(object sender, EventArgs e)
         {
-            menu = new MenuPrincipal();
-            this.Hide();
-            menu.ShowDialog();
-            this.Hide();
+            this.Close();
         }// botão voltar
     }//fim da classe
 }//fim do projeto

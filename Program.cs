@@ -19,5 +19,5 @@ namespace Pizza_Shu
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
         }
-    }
-}
+    }//fim da classe
+}//fim do projeto 
