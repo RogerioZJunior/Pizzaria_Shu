@@ -13,12 +13,15 @@ namespace Pizza_Shu.Telas
 {
     public partial class atualizarUsuario : Form
     {
-        MenuPrincipal menu;
+        LogDAO Log; 
         DAOusuario Usuario;
-        public atualizarUsuario()
+        private int usuarioCodigo;
+        public atualizarUsuario(int codigoUsuario)
         {
             InitializeComponent();
             Usuario = new DAOusuario();
+            Log = new LogDAO();
+            usuarioCodigo = codigoUsuario;
         }//fim do construtor
 
         private void atualizarUsuario_Load(object sender, EventArgs e)
@@ -124,6 +127,14 @@ namespace Pizza_Shu.Telas
 
             MessageBox.Show(resultado);
 
+            if (resultado == "Usuário atualizado com sucesso!")
+            {
+                Log.InserirLog(
+                    usuarioCodigo,
+                    "Atualizou o usuário código: " + codigo
+                );
+            }
+
             textBoxCodigo.Clear();
             textBoxATUNome.Clear();
             maskedTextBoxATUTelefone.Clear();
@@ -131,14 +142,12 @@ namespace Pizza_Shu.Telas
             textBoxATUEmail.Clear();
             textBoxATUSenha.Clear();
             checkBoxATUADM.Checked = false;
+
         }//botão atualizar
 
         private void buttonATUVoltar_Click(object sender, EventArgs e)
         {
-            menu = new MenuPrincipal();
-            this.Hide();
-            menu.ShowDialog();
-            this.Hide();
+            this.Close();
         }//botão voltar
     }//fim da clase
 }//fim do projeto

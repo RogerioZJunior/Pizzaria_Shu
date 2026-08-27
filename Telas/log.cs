@@ -1,4 +1,5 @@
-﻿using Pizza_Shu.DAOs;
+﻿using MySql.Data.MySqlClient;
+using Pizza_Shu.DAOs;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,27 +9,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace Pizza_Shu.Telas
 {
-    public partial class consultarUsuario : Form
+    public partial class log : Form
     {
-        LogDAO Log;
-        DAOusuario Usuario;
-        private int usuarioCodigo;
-        public consultarUsuario(int codigoUsuario)
+        MenuPrincipal menu;
+        LogDAO         Log;
+        public log()
         {
             InitializeComponent();
-            Usuario = new DAOusuario();
             Log = new LogDAO();
-            usuarioCodigo = codigoUsuario;
-            CarregarUsuario();
+            CarregarLog();
         }//fim do construtor
 
-        public void CarregarUsuario()
+        private void log_Load(object sender, EventArgs e)
         {
-            DataTable tabela = Usuario.ConsultarUsuario();
+
+        }//menu
+
+        public void CarregarLog()
+        {
+            DataTable tabela = Log.consultarLog();
 
             dataGridView1.DataSource = tabela;
 
@@ -40,31 +42,21 @@ namespace Pizza_Shu.Telas
 
             dataGridView1.AutoSizeColumnsMode =
                 DataGridViewAutoSizeColumnsMode.Fill;
-
-                Log.InserirLog(
-                    usuarioCodigo,
-                    "Consultou Usuários "
-                );
         }//carregar usuários
 
-        private void consultarUsuario_Load(object sender, EventArgs e)
-        {
-
-        }//menu
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-        }//data grid view
+        }// data grid view
 
-        private void buttonCONVoltar_Click(object sender, EventArgs e)
+
+        private void buttonLogVoltar_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }//botão voltar
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }//
+            menu = new MenuPrincipal();
+            this.Hide();
+            menu.ShowDialog();
+            this.Hide();
+        }// botão voltar
     }//fim da classe
 }//fim do projeto

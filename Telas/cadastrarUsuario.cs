@@ -14,12 +14,15 @@ namespace Pizza_Shu.Telas
 {
     public partial class cadastrarUsuario : Form
     {
-        MenuPrincipal menu;
-        DAOusuario Usuario;
-        public cadastrarUsuario()
+        LogDAO         Log;
+        DAOusuario  Usuario;
+        private int usuarioCodigo;
+        public cadastrarUsuario(int codigoUsuario)
         {
             InitializeComponent();
             Usuario = new DAOusuario();
+            Log = new LogDAO();
+            usuarioCodigo = codigoUsuario;
         }//fim do construtor
 
         private void textBoxNome_TextChanged(object sender, EventArgs e)
@@ -78,6 +81,10 @@ namespace Pizza_Shu.Telas
                 Usuario.InserirUsuario(
                     nome, telefone, endereco, email, senha, tipo);
 
+                // Registrar log
+                Log.InserirLog(usuarioCodigo,
+                "Cadastrou um novo usuário: " + nome);
+
                 // Limpar os campos
                 LimparCampos();
             }
@@ -97,10 +104,7 @@ namespace Pizza_Shu.Telas
         
         private void buttonCADVoltar_Click(object sender, EventArgs e)
         {
-            menu = new MenuPrincipal();
-            this.Hide();
-            menu.ShowDialog();
-            this.Hide();
+            this.Close();
         }//botão voltar
 
         private void cadastrarUsuario_Load(object sender, EventArgs e)

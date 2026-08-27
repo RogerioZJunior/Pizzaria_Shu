@@ -14,12 +14,15 @@ namespace Pizza_Shu.Telas
 {
     public partial class Evento : Form
     {
-        MenuPrincipal menu;
+        LogDAO Log;
         DAOusuario Usuario;
-        public Evento()
+        private int usuarioCodigo;
+        public Evento(int codigoUsuario)
         {
             InitializeComponent();
             Usuario = new DAOusuario();
+            Log = new LogDAO();
+            usuarioCodigo = codigoUsuario;
             CarregarEvento();
         }//fim do construtor
 
@@ -106,6 +109,11 @@ namespace Pizza_Shu.Telas
 
             MessageBox.Show(resultado);
 
+                  Log.InserirLog(
+                  usuarioCodigo,
+                  "Atualizou Evento: " + codigo
+                  );
+
             textBoxCodigo.Clear();
         }// botão atualizar
 
@@ -116,10 +124,7 @@ namespace Pizza_Shu.Telas
 
         private void buttonEVEVoltar_Click(object sender, EventArgs e)
         {
-             menu = new MenuPrincipal();
-            this.Hide();
-            menu.ShowDialog();
-            this.Hide();
+            this.Close();
         }//botão menu
 
     }//fim da classe

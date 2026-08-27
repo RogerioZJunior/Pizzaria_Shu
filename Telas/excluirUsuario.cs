@@ -13,12 +13,15 @@ namespace Pizza_Shu.Telas
 {
     public partial class excluirUsuario : Form
     {
-        MenuPrincipal menu;
-        DAOusuario Usuario; 
-        public excluirUsuario()
+        LogDAO Log;
+        DAOusuario Usuario;
+        private int usuarioCodigo;
+        public excluirUsuario(int codigoUsuario)
         {
             InitializeComponent();
             Usuario = new DAOusuario();
+            Log = new LogDAO();
+            usuarioCodigo = codigoUsuario;
         }//fim do construtor
 
         private void excluirUsuario_Load(object sender, EventArgs e)
@@ -78,6 +81,11 @@ namespace Pizza_Shu.Telas
                     MessageBox.Show(resultado);
 
                     textBoxEXCCodigo.Clear();
+                   
+                    Log.InserirLog(
+                    usuarioCodigo,
+                    "Excluiu Usuário: " + codigo
+                    );
                 }
             }
             else
@@ -88,10 +96,7 @@ namespace Pizza_Shu.Telas
 
         private void buttonEXCVoltar_Click(object sender, EventArgs e)
         {
-            menu = new MenuPrincipal();
-            this.Hide();
-            menu.ShowDialog();
-            this.Hide();
+            this.Close();
         }// botão voltar
     }//fim da classe
 }//fim do projeto

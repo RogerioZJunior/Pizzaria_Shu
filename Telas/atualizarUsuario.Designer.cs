@@ -231,7 +231,7 @@
             this.buttonATUVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonATUVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonATUVoltar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonATUVoltar.Location = new System.Drawing.Point(1377, 754);
+            this.buttonATUVoltar.Location = new System.Drawing.Point(1245, 697);
             this.buttonATUVoltar.Name = "buttonATUVoltar";
             this.buttonATUVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonATUVoltar.TabIndex = 31;
@@ -245,7 +245,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1502, 806);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonATUVoltar);
             this.Controls.Add(this.textBoxCodigo);
             this.Controls.Add(this.buttonProcurar);

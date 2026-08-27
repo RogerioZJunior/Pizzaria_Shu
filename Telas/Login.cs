@@ -15,12 +15,16 @@ namespace Pizza_Shu.Telas
 {
     public partial class Login : Form
     {
+        LogDAO Log;
         MenuPrincipal menu;
         DAOusuario Usuario;
-        public Login()
+        private int usuarioCodigo;  
+        public Login(int codigoUsuario)
         {
             InitializeComponent();
             Usuario = new DAOusuario();
+            Log = new LogDAO();
+            usuarioCodigo = codigoUsuario;
         }//fim do construtor
 
         private void Login_Load(object sender, EventArgs e)
@@ -46,7 +50,6 @@ namespace Pizza_Shu.Telas
             }
             else
             {
-
                 string email = textBoxLoginEmail.Text.Trim();
                 string senha = textBoxLoginSenha.Text;
 
@@ -56,15 +59,28 @@ namespace Pizza_Shu.Telas
                 {
                     MessageBox.Show("Login realizado com sucesso!");
 
-                    menu = new MenuPrincipal();
+                    // Pega o código do usuário que fez login
+                    int codigoUsuario = Convert.ToInt32(tabela.Rows[0]["codigo"]);
+
+                    // Cria o MenuPrincipal
+                    // ERRO ->  menu = new MenuPrincipal();
+
+                    // Passa o código do usuário para o MenuPrincipal
+                    menu.UsuarioCodigo = codigoUsuario;
+
                     this.Hide();
                     menu.ShowDialog();
-                    this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("usuário sem permissão.");
+                    MessageBox.Show("Usuário sem permissão.");
                 }
+
+                Log.InserirLog(
+                   usuarioCodigo,
+                   "Fez Login: " + email
+                   );
+
                 LimparCampos();
             }
         }//botão entrar

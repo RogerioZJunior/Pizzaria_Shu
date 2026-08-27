@@ -94,6 +94,7 @@
   <ItemGroup>
     <Compile Include="DAOs\conexaoBD.cs" />
     <Compile Include="DAOs\DAOusuario.cs" />
+    <Compile Include="DAOs\LogDAO.cs" />
     <Compile Include="Telas\atualizarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +124,12 @@
     </Compile>
     <Compile Include="Telas\excluirUsuario.Designer.cs">
       <DependentUpon>excluirUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\log.Designer.cs">
+      <DependentUpon>log.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\Login.cs">
       <SubType>Form</SubType>
@@ -158,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\excluirUsuario.resx">
       <DependentUpon>excluirUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\log.resx">
+      <DependentUpon>log.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -14,12 +14,15 @@ namespace Pizza_Shu.Telas
 {
     public partial class Pedido : Form
     {
-        MenuPrincipal menu;
+        LogDAO Log;
         DAOusuario Usuario;
-        public Pedido()
+        private int usuarioCodigo;
+        public Pedido(int codigoUsuario)
         {
             InitializeComponent();
             Usuario = new DAOusuario();
+            Log = new LogDAO();
+            usuarioCodigo = codigoUsuario;
             CarregarPedido();
         }//fim do construtor
 
@@ -113,16 +116,18 @@ namespace Pizza_Shu.Telas
 
             MessageBox.Show(resultado);
 
+                    Log.InserirLog(
+                   usuarioCodigo,
+                   "Atualizou Pedido: " + codigo
+                   );
+
             textBoxCodigo.Clear();
         
         }//botão atualizar
 
         private void buttonPedidoVoltar_Click(object sender, EventArgs e)
         {
-            menu = new MenuPrincipal();
-            this.Hide();
-            menu.ShowDialog();
-            this.Hide();
+            this.Close();
         }// botão voltar
 
     }//fim da classe
