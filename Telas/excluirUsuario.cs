@@ -61,38 +61,79 @@ namespace Pizza_Shu.Telas
                 string senha = tabela.Rows[0]["senha"].ToString();
                 string tipo = tabela.Rows[0]["tipo"].ToString();
 
+                bool usuarioAtivo = Convert.ToBoolean(
+                    tabela.Rows[0]["ativo"]
+                );
+
+                string situacao = usuarioAtivo
+                    ? "ATIVO"
+                    : "DESATIVADO";
+
+                string pergunta;
+
+                if (usuarioAtivo)
+                {
+                    pergunta =
+                        "Deseja DESATIVAR este Usuário?\n\n" +
+                        "Os eventos e pedidos deste usuário serão cancelados.";
+                }
+                else
+                {
+                    pergunta =
+                        "Este usuário está DESATIVADO.\n\n" +
+                        "Deseja REATIVAR este Usuário?";
+                }
+
                 DialogResult resposta = MessageBox.Show(
                     "Usuário encontrado:\n\n" +
                     "Nome: " + nome + "\n" +
                     "Telefone: " + telefone + "\n" +
-                    "endereço: " + endereco + "\n" +
+                    "Endereço: " + endereco + "\n" +
                     "Email: " + email + "\n" +
-                    "senha: " + senha + "\n" +
-                    "Tipo de Usuário: " + tipo + "\n\n" +
-                    "Deseja excluir este Usuário?",
+                    "Senha: " + senha + "\n" +
+                    "Tipo de Usuário: " + tipo + "\n" +
+                    "Ativo: " + situacao + "\n\n" +
+                    pergunta,
                     "Confirmação",
                     MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Warning);
+                    MessageBoxIcon.Warning
+                );
 
                 if (resposta == DialogResult.Yes)
                 {
-                    string resultado = Usuario.DeletarUsuario(codigo);
+                    string resultado;
+
+                    if (usuarioAtivo)
+                    {
+                        // DESATIVAR
+                        resultado = Usuario.DeletarUsuario(codigo);
+
+                        Log.InserirLog(
+                            usuarioCodigo,
+                            "Desativou Usuário: " + codigo
+                        );
+                    }
+                    else
+                    {
+                        // REATIVAR
+                        resultado = Usuario.ReativarUsuario(codigo);
+
+                        Log.InserirLog(
+                            usuarioCodigo,
+                            "Reativou Usuário: " + codigo
+                        );
+                    }
 
                     MessageBox.Show(resultado);
 
                     textBoxEXCCodigo.Clear();
-                   
-                    Log.InserirLog(
-                    usuarioCodigo,
-                    "Excluiu Usuário: " + codigo
-                    );
                 }
             }
             else
             {
                 MessageBox.Show("Usuário Não Encontrado");
             }
-        }// botão excluir
+        }//botão excluir
 
         private void buttonEXCVoltar_Click(object sender, EventArgs e)
         {

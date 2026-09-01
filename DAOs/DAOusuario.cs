@@ -73,7 +73,7 @@ namespace Pizza_Shu.DAOs
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
                     string sql = @"SELECT codigo, nome, telefone,
-                                   endereco, email, senha, tipo
+                                   endereco, email, senha, tipo, ativo
                                    FROM usuario";
 
                     MySqlDataAdapter adapter =
@@ -396,39 +396,119 @@ namespace Pizza_Shu.DAOs
         }//fim atualizar Pedido
 
 
-        // DELETAR
+        // DESATIVAR USUÁRIO
         public string DeletarUsuario(int codigo)
         {
             try
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
-                    string sql = @"DELETE FROM usuario
-                                   WHERE codigo = @codigo";
-
-                    MySqlCommand comando =
-                        new MySqlCommand(sql, conexao);
-
-                    comando.Parameters.AddWithValue("@codigo", codigo);
-
-                    int linhasAfetadas =
-                        comando.ExecuteNonQuery();
-
-                    if (linhasAfetadas > 0)
+                    using (MySqlTransaction transacao = conexao.BeginTransaction())
                     {
-                        return "Usuário excluído com sucesso!";
-                    }
-                    else
-                    {
-                        return "Usuário não encontrado.";
+                        try
+                        {
+                            // 1 - Desativar usuário
+                            string sqlUsuario = @"
+                            UPDATE usuario
+                            SET ativo = FALSE
+                            WHERE codigo = @codigo";
+
+                            using (MySqlCommand comandoUsuario =
+                                new MySqlCommand(sqlUsuario, conexao, transacao))
+                            {
+                                comandoUsuario.Parameters.AddWithValue("@codigo", codigo);
+
+                                int linhasAfetadas =
+                                    comandoUsuario.ExecuteNonQuery();
+
+                                if (linhasAfetadas == 0)
+                                {
+                                    transacao.Rollback();
+                                    return "Usuário não encontrado.";
+                                }
+                            }
+
+                            //Cancelar eventos do usuário
+                            string sqlEvento = @"
+                            UPDATE evento
+                            SET statuss = 'Cancelado'
+                            WHERE usuario_codigo = @codigo";
+
+                            using (MySqlCommand comandoEvento =
+                                new MySqlCommand(sqlEvento, conexao, transacao))
+                            {
+                                comandoEvento.Parameters.AddWithValue("@codigo", codigo);
+                                comandoEvento.ExecuteNonQuery();
+                            }
+
+                            //Cancelar pedidos do usuário
+                            string sqlPedido = @"
+                            UPDATE pedido
+                            SET statuss = 'Cancelado'
+                            WHERE usuario_codigo = @codigo";
+
+                            using (MySqlCommand comandoPedido =
+                                new MySqlCommand(sqlPedido, conexao, transacao))
+                            {
+                                comandoPedido.Parameters.AddWithValue("@codigo", codigo);
+                                comandoPedido.ExecuteNonQuery();
+                            }
+
+                            // Confirma todas as alterações
+                            transacao.Commit();
+
+                            return "Usuário desativado, eventos e pedidos cancelados com sucesso!";
+                        }
+                        catch
+                        {
+                            // Se alguma coisa der errado, desfaz tudo
+                            transacao.Rollback();
+                            throw;
+                        }
                     }
                 }
             }
             catch (Exception erro)
             {
-                return "Erro ao excluir: " + erro.Message;
+                return "Erro ao desativar usuário: " + erro.Message;
             }
-        }//fim deletar
+        }//fim do desativar
+
+        // REATIVAR USUÁRIO
+        public string ReativarUsuario(int codigo)
+        {
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"
+                    UPDATE usuario
+                    SET ativo = TRUE
+                    WHERE codigo = @codigo";
+
+                    using (MySqlCommand comando =
+                        new MySqlCommand(sql, conexao))
+                    {
+                        comando.Parameters.AddWithValue("@codigo", codigo);
+
+                        int linhasAfetadas = comando.ExecuteNonQuery();
+
+                        if (linhasAfetadas > 0)
+                        {
+                            return "Usuário reativado com sucesso!";
+                        }
+                        else
+                        {
+                            return "Usuário não encontrado.";
+                        }
+                    }
+                }
+            }
+            catch (Exception erro)
+            {
+                return "Erro ao reativar: " + erro.Message;
+            }
+        }//fim do reativar
 
         public DataTable Login(string email, string senha)
         {
@@ -439,11 +519,12 @@ namespace Pizza_Shu.DAOs
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
                     string sql = @"SELECT codigo, nome, telefone,
-                                  endereco, email, senha, tipo
+                                  endereco, email, senha, tipo, ativo
                            FROM usuario
                            WHERE email = @email
-                           AND senha = @senha
-                           AND tipo = 1";
+                           AND senha   = @senha
+                           AND tipo    = 1
+                           AND ativo   = 1"; 
 
                     MySqlCommand comando = new MySqlCommand(sql, conexao);
 

@@ -156,10 +156,15 @@
             // 
             // comboBoxCategoriaProduto
             // 
+            this.comboBoxCategoriaProduto.BackColor = System.Drawing.Color.Ivory;
             this.comboBoxCategoriaProduto.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.comboBoxCategoriaProduto.FormattingEnabled = true;
             this.comboBoxCategoriaProduto.Items.AddRange(new object[] {
-            "Pizza"});
+            "Pizza",
+            "Lanche",
+            "Acompanhamento",
+            "Sobremesa",
+            "Bebida"});
             this.comboBoxCategoriaProduto.Location = new System.Drawing.Point(484, 278);
             this.comboBoxCategoriaProduto.Name = "comboBoxCategoriaProduto";
             this.comboBoxCategoriaProduto.Size = new System.Drawing.Size(238, 35);

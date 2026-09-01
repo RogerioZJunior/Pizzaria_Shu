@@ -142,3 +142,7 @@ C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.cadastrarProdut
 C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.consultarProduto.resources
 C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.atualizarProduto.resources
 C:\Users\lea\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.excluirProduto.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.atualizarProduto.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.cadastrarProduto.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.consultarProduto.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.excluirProduto.resources
