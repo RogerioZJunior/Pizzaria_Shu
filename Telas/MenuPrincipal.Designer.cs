@@ -43,6 +43,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.buttonLogs = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.buttonEXCProduto = new System.Windows.Forms.Button();
+            this.buttonATUProduto = new System.Windows.Forms.Button();
+            this.buttonConProduto = new System.Windows.Forms.Button();
+            this.buttonCADProduto = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -141,7 +146,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F);
-            this.label3.Location = new System.Drawing.Point(252, 253);
+            this.label3.Location = new System.Drawing.Point(425, 253);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 23);
             this.label3.TabIndex = 9;
@@ -152,7 +157,7 @@
             this.buttonPedidos.BackColor = System.Drawing.Color.Ivory;
             this.buttonPedidos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPedidos.Font = new System.Drawing.Font("Times New Roman", 15.75F);
-            this.buttonPedidos.Location = new System.Drawing.Point(238, 294);
+            this.buttonPedidos.Location = new System.Drawing.Point(411, 294);
             this.buttonPedidos.Name = "buttonPedidos";
             this.buttonPedidos.Size = new System.Drawing.Size(139, 49);
             this.buttonPedidos.TabIndex = 7;
@@ -165,7 +170,7 @@
             this.buttonEventos.BackColor = System.Drawing.Color.Ivory;
             this.buttonEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEventos.Font = new System.Drawing.Font("Times New Roman", 15.75F);
-            this.buttonEventos.Location = new System.Drawing.Point(427, 294);
+            this.buttonEventos.Location = new System.Drawing.Point(600, 294);
             this.buttonEventos.Name = "buttonEventos";
             this.buttonEventos.Size = new System.Drawing.Size(142, 49);
             this.buttonEventos.TabIndex = 8;
@@ -178,7 +183,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F);
-            this.label4.Location = new System.Drawing.Point(441, 253);
+            this.label4.Location = new System.Drawing.Point(614, 253);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 23);
             this.label4.TabIndex = 11;
@@ -220,6 +225,69 @@
             this.pictureBox1.TabIndex = 57;
             this.pictureBox1.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F);
+            this.label5.Location = new System.Drawing.Point(257, 253);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 23);
+            this.label5.TabIndex = 62;
+            this.label5.Text = "Produto";
+            // 
+            // buttonEXCProduto
+            // 
+            this.buttonEXCProduto.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEXCProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEXCProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEXCProduto.Location = new System.Drawing.Point(224, 470);
+            this.buttonEXCProduto.Name = "buttonEXCProduto";
+            this.buttonEXCProduto.Size = new System.Drawing.Size(139, 49);
+            this.buttonEXCProduto.TabIndex = 61;
+            this.buttonEXCProduto.Text = "Excluir";
+            this.buttonEXCProduto.UseVisualStyleBackColor = false;
+            this.buttonEXCProduto.Click += new System.EventHandler(this.buttonEXCProduto_Click);
+            // 
+            // buttonATUProduto
+            // 
+            this.buttonATUProduto.BackColor = System.Drawing.Color.Ivory;
+            this.buttonATUProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonATUProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonATUProduto.Location = new System.Drawing.Point(224, 409);
+            this.buttonATUProduto.Name = "buttonATUProduto";
+            this.buttonATUProduto.Size = new System.Drawing.Size(139, 49);
+            this.buttonATUProduto.TabIndex = 60;
+            this.buttonATUProduto.Text = "Atualizar";
+            this.buttonATUProduto.UseVisualStyleBackColor = false;
+            this.buttonATUProduto.Click += new System.EventHandler(this.buttonATUProduto_Click);
+            // 
+            // buttonConProduto
+            // 
+            this.buttonConProduto.BackColor = System.Drawing.Color.Ivory;
+            this.buttonConProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonConProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonConProduto.Location = new System.Drawing.Point(224, 349);
+            this.buttonConProduto.Name = "buttonConProduto";
+            this.buttonConProduto.Size = new System.Drawing.Size(139, 49);
+            this.buttonConProduto.TabIndex = 59;
+            this.buttonConProduto.Text = "Consultar";
+            this.buttonConProduto.UseVisualStyleBackColor = false;
+            this.buttonConProduto.Click += new System.EventHandler(this.buttonConProduto_Click);
+            // 
+            // buttonCADProduto
+            // 
+            this.buttonCADProduto.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCADProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCADProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCADProduto.Location = new System.Drawing.Point(224, 291);
+            this.buttonCADProduto.Name = "buttonCADProduto";
+            this.buttonCADProduto.Size = new System.Drawing.Size(139, 49);
+            this.buttonCADProduto.TabIndex = 58;
+            this.buttonCADProduto.Text = "Cadastrar";
+            this.buttonCADProduto.UseVisualStyleBackColor = false;
+            this.buttonCADProduto.Click += new System.EventHandler(this.buttonCADProduto_Click);
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,6 +295,11 @@
             this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.buttonEXCProduto);
+            this.Controls.Add(this.buttonATUProduto);
+            this.Controls.Add(this.buttonConProduto);
+            this.Controls.Add(this.buttonCADProduto);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonLogs);
             this.Controls.Add(this.label1);
@@ -268,6 +341,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonLogs;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button buttonEXCProduto;
+        private System.Windows.Forms.Button buttonATUProduto;
+        private System.Windows.Forms.Button buttonConProduto;
+        private System.Windows.Forms.Button buttonCADProduto;
     }
 }
 

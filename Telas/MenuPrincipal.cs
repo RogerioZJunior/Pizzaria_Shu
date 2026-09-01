@@ -17,15 +17,19 @@ namespace Pizza_Shu
     public partial class MenuPrincipal : Form
     {
         public int UsuarioCodigo { get; set; }//pega o codigo do usuário atual
-        LogDAO Log;
-        cadastrarUsuario  cad;
-        consultarUsuario  con;
-        atualizarUsuario  atu;
-        excluirUsuario    exc;
-        Pedido         pedido;
-        Evento         evento;
-        Login           login;
-        log               log;
+        LogDAO                Log;
+        cadastrarUsuario      cad;
+        consultarUsuario      con;
+        atualizarUsuario      atu;
+        excluirUsuario        exc;
+        cadastrarProduto   cadPro;
+        consultarProduto   conPro;
+        atualizarProduto   atuPro;
+        excluirProduto     excPro;
+        Pedido             pedido;
+        Evento             evento;
+        Login               login;
+        log                   log;
 
         public MenuPrincipal(int codigoUsuario)
         {
@@ -70,6 +74,39 @@ namespace Pizza_Shu
             exc.ShowDialog();
             this.Show();
         }//botão excluir
+
+        private void buttonCADProduto_Click(object sender, EventArgs e)
+        {
+            cadastrarProduto cadPro = new cadastrarProduto(UsuarioCodigo);
+            this.Hide();
+            cadPro.ShowDialog();
+            this.Show();
+        }//botão cadastrar produto
+
+        private void buttonConProduto_Click(object sender, EventArgs e)
+        {
+            consultarProduto conPro = new consultarProduto(UsuarioCodigo);
+            this.Hide();
+            conPro.ShowDialog();
+            this.Show();
+        }//botão consultar produto
+
+        private void buttonATUProduto_Click(object sender, EventArgs e)
+        {
+            atualizarProduto atuPro = new atualizarProduto(UsuarioCodigo);
+            this.Hide();
+            atuPro.ShowDialog();
+            this.Show();
+        }//botão atualizar produto
+
+        private void buttonEXCProduto_Click(object sender, EventArgs e)
+        {
+            excluirProduto excPro = new excluirProduto(UsuarioCodigo);
+            this.Hide();
+            excPro.ShowDialog();
+            this.Show();
+        }//botão excluir produto
+
         private void buttonPedidos_Click(object sender, EventArgs e)
         {
             Pedido pedido = new Pedido(UsuarioCodigo);
@@ -108,5 +145,6 @@ namespace Pizza_Shu
 
         }//
 
+    
     }//fim da classe
 }//fim do projeto

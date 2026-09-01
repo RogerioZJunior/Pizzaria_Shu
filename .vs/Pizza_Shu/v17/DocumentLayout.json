@@ -1,93 +1,129 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\",
+  "WorkspaceRootPath": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|c:\\users\\rogerio.zjunior\\source\\repos\\pizzaria_shu\\telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\daos\\logdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:daos\\logdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\daos\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:daos\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|c:\\users\\rogerio.zjunior\\source\\repos\\pizzaria_shu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\excluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|c:\\users\\lea\\source\\repos\\pizzaria_shu\\telas\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\excluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\excluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\excluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|c:\\users\\lea\\source\\repos\\pizzaria_shu\\telas\\atualizarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\atualizarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|c:\\users\\lea\\source\\repos\\pizzaria_shu\\telas\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\excluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\excluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\daos\\daoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:daos\\daoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\consultarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\consultarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\daos\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:daos\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\atualizarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\atualizarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\consultarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\consultarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\consultarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\telas\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\daos\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:daos\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\daos\\logdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:daos\\logdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\daos\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:daos\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\telas\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AD969F5A-CBBF-49B4-913B-3FBB297BB3F6}|Pizza_Shu.csproj|solutionrelative:telas\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -98,189 +134,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "excluirUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs",
-              "RelativeDocumentMoniker": "Telas\\excluirUsuario.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs",
-              "RelativeToolTip": "Telas\\excluirUsuario.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAuwFQAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "excluirProduto.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\excluirProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirProduto.cs",
+              "RelativeToolTip": "Telas\\excluirProduto.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAcwGAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T03:08:54.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs",
-              "RelativeDocumentMoniker": "Telas\\Login.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs [Design]",
-              "RelativeToolTip": "Telas\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T19:41:10.484Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Evento.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs",
-              "RelativeDocumentMoniker": "Telas\\Evento.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs [Design]",
-              "RelativeToolTip": "Telas\\Evento.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T00:59:49.001Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "conexaoBD.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\DAOs\\conexaoBD.cs",
-              "RelativeDocumentMoniker": "DAOs\\conexaoBD.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\DAOs\\conexaoBD.cs",
-              "RelativeToolTip": "DAOs\\conexaoBD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T21:53:59.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs",
-              "RelativeDocumentMoniker": "Telas\\Pedido.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs",
-              "RelativeToolTip": "Telas\\Pedido.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T20:08:26.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Pedido.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs",
-              "RelativeDocumentMoniker": "Telas\\Pedido.cs",
-              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T20:04:31.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "consultarUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs",
-              "RelativeDocumentMoniker": "Telas\\consultarUsuario.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs",
-              "RelativeToolTip": "Telas\\consultarUsuario.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA1wCsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T00:05:05.774Z"
+              "WhenOpened": "2026-09-01T00:35:12.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "log.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs",
-              "RelativeDocumentMoniker": "Telas\\log.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs",
-              "RelativeToolTip": "Telas\\log.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAbAAAAAAAAAA==",
+              "Title": "excluirUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs",
+              "RelativeDocumentMoniker": "Telas\\excluirUsuario.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs [Design]",
+              "RelativeToolTip": "Telas\\excluirUsuario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T00:32:52.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LogDAO.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\DAOs\\LogDAO.cs",
-              "RelativeDocumentMoniker": "DAOs\\LogDAO.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\DAOs\\LogDAO.cs",
-              "RelativeToolTip": "DAOs\\LogDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T00:23:36.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T03:02:25.8Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DAOusuario.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\DAOs\\DAOusuario.cs",
-              "RelativeDocumentMoniker": "DAOs\\DAOusuario.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\DAOs\\DAOusuario.cs",
-              "RelativeToolTip": "DAOs\\DAOusuario.cs",
-              "ViewState": "AgIAAJ0BAAAAAAAAAAAAAMcBAAApAAAAAAAAAA==",
+              "Title": "atualizarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\atualizarProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarProduto.cs",
+              "RelativeToolTip": "Telas\\atualizarProduto.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAkwHMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T21:56:21.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "Telas\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs",
-              "RelativeToolTip": "Telas\\MenuPrincipal.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAwGAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T21:47:53.459Z",
+              "WhenOpened": "2026-08-31T23:48:34.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs",
-              "RelativeDocumentMoniker": "Telas\\Login.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs",
-              "RelativeToolTip": "Telas\\Login.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T19:44:12.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs",
-              "RelativeDocumentMoniker": "Telas\\Evento.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs",
-              "RelativeToolTip": "Telas\\Evento.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T01:02:48.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T17:34:10.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "MenuPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "Telas\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs [Design]",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs [Design]",
               "RelativeToolTip": "Telas\\MenuPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-20T21:45:19.561Z",
@@ -288,83 +188,319 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "excluirUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs",
-              "RelativeDocumentMoniker": "Telas\\excluirUsuario.cs",
-              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Telas\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\MenuPrincipal.cs",
+              "RelativeToolTip": "Telas\\MenuPrincipal.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAawGkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T03:02:25.8Z"
+              "WhenOpened": "2026-08-20T21:47:53.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
+              "Title": "excluirProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\excluirProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirProduto.cs [Design]",
+              "RelativeToolTip": "Telas\\excluirProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T00:34:54.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "excluirUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs",
+              "RelativeDocumentMoniker": "Telas\\excluirUsuario.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\excluirUsuario.cs",
+              "RelativeToolTip": "Telas\\excluirUsuario.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:08:54.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cadastrarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\cadastrarProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarProduto.cs",
+              "RelativeToolTip": "Telas\\cadastrarProduto.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwEkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T22:54:43.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "consultarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\consultarProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarProduto.cs",
+              "RelativeToolTip": "Telas\\consultarProduto.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T23:32:37.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DAOProduto.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\DAOProduto.cs",
+              "RelativeDocumentMoniker": "DAOs\\DAOProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\DAOProduto.cs",
+              "RelativeToolTip": "DAOs\\DAOProduto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T22:14:10.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "atualizarProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\atualizarProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarProduto.cs [Design]",
+              "RelativeToolTip": "Telas\\atualizarProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T23:41:52.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "atualizarUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs",
               "RelativeDocumentMoniker": "Telas\\atualizarUsuario.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs",
               "RelativeToolTip": "Telas\\atualizarUsuario.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAIwJUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswI8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-21T01:54:54.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "consultarUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs",
-              "RelativeDocumentMoniker": "Telas\\consultarUsuario.cs",
-              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T23:59:46.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "cadastrarUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs",
-              "RelativeDocumentMoniker": "Telas\\cadastrarUsuario.cs",
-              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs",
-              "RelativeToolTip": "Telas\\cadastrarUsuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T22:39:49.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 12,
               "Title": "atualizarUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs",
               "RelativeDocumentMoniker": "Telas\\atualizarUsuario.cs",
               "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\atualizarUsuario.cs [Design]",
+              "RelativeToolTip": "Telas\\atualizarUsuario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-21T01:50:23.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
+              "Title": "consultarProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\consultarProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarProduto.cs [Design]",
+              "RelativeToolTip": "Telas\\consultarProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T23:30:23.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "consultarUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs",
+              "RelativeDocumentMoniker": "Telas\\consultarUsuario.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs [Design]",
+              "RelativeToolTip": "Telas\\consultarUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:59:46.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "consultarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs",
+              "RelativeDocumentMoniker": "Telas\\consultarUsuario.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\consultarUsuario.cs",
+              "RelativeToolTip": "Telas\\consultarUsuario.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T00:05:05.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "cadastrarProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarProduto.cs",
+              "RelativeDocumentMoniker": "Telas\\cadastrarProduto.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarProduto.cs [Design]",
+              "RelativeToolTip": "Telas\\cadastrarProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T22:41:55.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "cadastrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs",
+              "RelativeDocumentMoniker": "Telas\\cadastrarUsuario.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs",
+              "RelativeToolTip": "Telas\\cadastrarUsuario.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAwEAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T22:39:49.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "cadastrarUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs",
               "RelativeDocumentMoniker": "Telas\\cadastrarUsuario.cs",
               "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\cadastrarUsuario.cs [Design]",
+              "RelativeToolTip": "Telas\\cadastrarUsuario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-20T22:30:16.572Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DAOusuario.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\DAOusuario.cs",
+              "RelativeDocumentMoniker": "DAOs\\DAOusuario.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\DAOusuario.cs",
+              "RelativeToolTip": "DAOs\\DAOusuario.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAK4BAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T21:56:21.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Pedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs",
+              "RelativeDocumentMoniker": "Telas\\Pedido.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs [Design]",
+              "RelativeToolTip": "Telas\\Pedido.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T20:04:31.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs",
+              "RelativeDocumentMoniker": "Telas\\Pedido.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Pedido.cs",
+              "RelativeToolTip": "Telas\\Pedido.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T20:08:26.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "conexaoBD.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\conexaoBD.cs",
+              "RelativeDocumentMoniker": "DAOs\\conexaoBD.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\conexaoBD.cs",
+              "RelativeToolTip": "DAOs\\conexaoBD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T21:53:59.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Evento.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs",
+              "RelativeDocumentMoniker": "Telas\\Evento.cs",
+              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T00:59:49.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs",
+              "RelativeDocumentMoniker": "Telas\\Login.cs",
+              "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T19:41:10.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "log.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs",
+              "RelativeDocumentMoniker": "Telas\\log.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs",
+              "RelativeToolTip": "Telas\\log.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T00:32:52.423Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "LogDAO.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\LogDAO.cs",
+              "RelativeDocumentMoniker": "DAOs\\LogDAO.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\DAOs\\LogDAO.cs",
+              "RelativeToolTip": "DAOs\\LogDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T00:23:36.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs",
+              "RelativeDocumentMoniker": "Telas\\Login.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Login.cs",
+              "RelativeToolTip": "Telas\\Login.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T19:44:12.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs",
+              "RelativeDocumentMoniker": "Telas\\Evento.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\Evento.cs",
+              "RelativeToolTip": "Telas\\Evento.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T01:02:48.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T17:34:10.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "log.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs",
+              "DocumentMoniker": "C:\\Users\\lea\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs",
               "RelativeDocumentMoniker": "Telas\\log.cs",
               "ToolTip": "C:\\Users\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs [Design]",
-              "RelativeToolTip": "Telas\\log.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\rogerio.zjunior\\source\\repos\\Pizzaria_Shu\\Telas\\log.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T00:32:47.552Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-08-27T00:32:47.552Z"
             }
           ]
         }

@@ -93,19 +93,38 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAOs\conexaoBD.cs" />
+    <Compile Include="DAOs\DAOProduto.cs" />
     <Compile Include="DAOs\DAOusuario.cs" />
     <Compile Include="DAOs\LogDAO.cs" />
+    <Compile Include="Telas\atualizarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\atualizarProduto.Designer.cs">
+      <DependentUpon>atualizarProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\atualizarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Telas\atualizarUsuario.Designer.cs">
       <DependentUpon>atualizarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\cadastrarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\cadastrarProduto.Designer.cs">
+      <DependentUpon>cadastrarProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\cadastrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Telas\cadastrarUsuario.Designer.cs">
       <DependentUpon>cadastrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\consultarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\consultarProduto.Designer.cs">
+      <DependentUpon>consultarProduto.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\consultarUsuario.cs">
       <SubType>Form</SubType>
@@ -118,6 +137,12 @@
     </Compile>
     <Compile Include="Telas\Evento.Designer.cs">
       <DependentUpon>Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\excluirProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\excluirProduto.Designer.cs">
+      <DependentUpon>excluirProduto.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\excluirUsuario.cs">
       <SubType>Form</SubType>
@@ -151,17 +176,29 @@
     <Compile Include="Telas\Pedido.Designer.cs">
       <DependentUpon>Pedido.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas\atualizarProduto.resx">
+      <DependentUpon>atualizarProduto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\atualizarUsuario.resx">
       <DependentUpon>atualizarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\cadastrarProduto.resx">
+      <DependentUpon>cadastrarProduto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\cadastrarUsuario.resx">
       <DependentUpon>cadastrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\consultarProduto.resx">
+      <DependentUpon>consultarProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\consultarUsuario.resx">
       <DependentUpon>consultarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\Evento.resx">
       <DependentUpon>Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\excluirProduto.resx">
+      <DependentUpon>excluirProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\excluirUsuario.resx">
       <DependentUpon>excluirUsuario.cs</DependentUpon>
