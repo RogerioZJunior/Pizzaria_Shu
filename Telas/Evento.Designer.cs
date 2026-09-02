@@ -50,11 +50,11 @@
             this.buttonEVEVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonEVEVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEVEVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEVEVoltar.Location = new System.Drawing.Point(658, 697);
+            this.buttonEVEVoltar.Location = new System.Drawing.Point(655, 697);
             this.buttonEVEVoltar.Name = "buttonEVEVoltar";
             this.buttonEVEVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonEVEVoltar.TabIndex = 5;
-            this.buttonEVEVoltar.Text = "Voltar";
+            this.buttonEVEVoltar.Text = "Voltar➡️";
             this.buttonEVEVoltar.UseVisualStyleBackColor = false;
             this.buttonEVEVoltar.Click += new System.EventHandler(this.buttonEVEVoltar_Click);
             // 
@@ -64,9 +64,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(436, 66);
+            this.dataGridView1.Location = new System.Drawing.Point(436, 39);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(922, 625);
+            this.dataGridView1.Size = new System.Drawing.Size(930, 652);
             this.dataGridView1.TabIndex = 4;
             // 
             // label1
@@ -77,7 +77,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(431, 36);
+            this.label1.Location = new System.Drawing.Point(431, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 27);
             this.label1.TabIndex = 3;
@@ -87,12 +87,12 @@
             // 
             this.buttonSelecionar.BackColor = System.Drawing.Color.Ivory;
             this.buttonSelecionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSelecionar.Location = new System.Drawing.Point(321, 137);
             this.buttonSelecionar.Name = "buttonSelecionar";
             this.buttonSelecionar.Size = new System.Drawing.Size(113, 40);
             this.buttonSelecionar.TabIndex = 62;
-            this.buttonSelecionar.Text = "Selecionar";
+            this.buttonSelecionar.Text = "🎉Selecionar";
             this.buttonSelecionar.UseVisualStyleBackColor = false;
             this.buttonSelecionar.Click += new System.EventHandler(this.buttonSelecionar_Click);
             // 
@@ -100,12 +100,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F);
-            this.label3.Location = new System.Drawing.Point(1, 260);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(6, 261);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 21);
+            this.label3.Size = new System.Drawing.Size(65, 19);
             this.label3.TabIndex = 61;
-            this.label3.Text = "Status:";
+            this.label3.Text = "🔡Status:";
             // 
             // comboBox1
             // 
@@ -136,12 +136,12 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(1, 150);
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(1, 151);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 21);
+            this.label7.Size = new System.Drawing.Size(73, 19);
             this.label7.TabIndex = 57;
-            this.label7.Text = "Código:";
+            this.label7.Text = "🎉Código:";
             // 
             // buttonAtualizar
             // 
@@ -152,7 +152,7 @@
             this.buttonAtualizar.Name = "buttonAtualizar";
             this.buttonAtualizar.Size = new System.Drawing.Size(139, 49);
             this.buttonAtualizar.TabIndex = 58;
-            this.buttonAtualizar.Text = "Atualizar";
+            this.buttonAtualizar.Text = "🔄️Atualizar";
             this.buttonAtualizar.UseVisualStyleBackColor = false;
             this.buttonAtualizar.Click += new System.EventHandler(this.buttonAtualizar_Click);
             // 

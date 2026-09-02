@@ -130,5 +130,9 @@ namespace Pizza_Shu.Telas
             this.Close();
         }// botão voltar
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }//label
     }//fim da classe
 }//fim do projeto

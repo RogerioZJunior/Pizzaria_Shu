@@ -50,11 +50,11 @@
             this.buttonPedidoVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonPedidoVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPedidoVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPedidoVoltar.Location = new System.Drawing.Point(630, 681);
+            this.buttonPedidoVoltar.Location = new System.Drawing.Point(631, 697);
             this.buttonPedidoVoltar.Name = "buttonPedidoVoltar";
             this.buttonPedidoVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonPedidoVoltar.TabIndex = 5;
-            this.buttonPedidoVoltar.Text = "Voltar";
+            this.buttonPedidoVoltar.Text = "Voltar➡️";
             this.buttonPedidoVoltar.UseVisualStyleBackColor = false;
             this.buttonPedidoVoltar.Click += new System.EventHandler(this.buttonPedidoVoltar_Click);
             // 
@@ -64,9 +64,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(436, 83);
+            this.dataGridView1.Location = new System.Drawing.Point(436, 80);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(922, 592);
+            this.dataGridView1.Size = new System.Drawing.Size(930, 611);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -78,7 +78,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(431, 57);
+            this.label1.Location = new System.Drawing.Point(451, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 27);
             this.label1.TabIndex = 3;
@@ -104,7 +104,7 @@
             this.buttonAtualizar.Name = "buttonAtualizar";
             this.buttonAtualizar.Size = new System.Drawing.Size(139, 49);
             this.buttonAtualizar.TabIndex = 51;
-            this.buttonAtualizar.Text = "Atualizar";
+            this.buttonAtualizar.Text = "🔄️Atualizar";
             this.buttonAtualizar.UseVisualStyleBackColor = false;
             this.buttonAtualizar.Click += new System.EventHandler(this.buttonAtualizar_Click);
             // 
@@ -112,12 +112,12 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(2, 137);
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(3, 138);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 21);
+            this.label7.Size = new System.Drawing.Size(73, 19);
             this.label7.TabIndex = 50;
-            this.label7.Text = "Código:";
+            this.label7.Text = "📃Código:";
             // 
             // textBoxCodigo
             // 
@@ -149,23 +149,24 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F);
-            this.label3.Location = new System.Drawing.Point(7, 247);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(3, 248);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 21);
+            this.label3.Size = new System.Drawing.Size(65, 19);
             this.label3.TabIndex = 54;
-            this.label3.Text = "Status:";
+            this.label3.Text = "🔡Status:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // buttonSelecionar
             // 
             this.buttonSelecionar.BackColor = System.Drawing.Color.Ivory;
             this.buttonSelecionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSelecionar.Location = new System.Drawing.Point(317, 124);
+            this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSelecionar.Location = new System.Drawing.Point(317, 127);
             this.buttonSelecionar.Name = "buttonSelecionar";
             this.buttonSelecionar.Size = new System.Drawing.Size(113, 40);
             this.buttonSelecionar.TabIndex = 55;
-            this.buttonSelecionar.Text = "Selecionar";
+            this.buttonSelecionar.Text = "📜Selecionar";
             this.buttonSelecionar.UseVisualStyleBackColor = false;
             this.buttonSelecionar.Click += new System.EventHandler(this.buttonSelecionar_Click);
             // 

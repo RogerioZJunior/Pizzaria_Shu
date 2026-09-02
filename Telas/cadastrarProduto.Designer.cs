@@ -49,11 +49,11 @@
             this.buttonCadastrarProduto.BackColor = System.Drawing.Color.Ivory;
             this.buttonCadastrarProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCadastrarProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadastrarProduto.Location = new System.Drawing.Point(324, 548);
+            this.buttonCadastrarProduto.Location = new System.Drawing.Point(352, 546);
             this.buttonCadastrarProduto.Name = "buttonCadastrarProduto";
             this.buttonCadastrarProduto.Size = new System.Drawing.Size(139, 49);
             this.buttonCadastrarProduto.TabIndex = 25;
-            this.buttonCadastrarProduto.Text = "Cadastrar";
+            this.buttonCadastrarProduto.Text = "🍕Cadastrar";
             this.buttonCadastrarProduto.UseVisualStyleBackColor = false;
             this.buttonCadastrarProduto.Click += new System.EventHandler(this.buttonCadastrarProduto_Click);
             // 
@@ -72,33 +72,33 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 377);
+            this.label4.Location = new System.Drawing.Point(21, 377);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 21);
+            this.label4.Size = new System.Drawing.Size(79, 21);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Preço:";
+            this.label4.Text = "💲Preço:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 286);
+            this.label3.Location = new System.Drawing.Point(2, 286);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 21);
+            this.label3.Size = new System.Drawing.Size(110, 21);
             this.label3.TabIndex = 15;
-            this.label3.Text = "Descrição:";
+            this.label3.Text = "📃Descrição:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(29, 207);
+            this.label2.Location = new System.Drawing.Point(21, 207);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 21);
+            this.label2.Size = new System.Drawing.Size(80, 21);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Nome:";
+            this.label2.Text = "🍕Nome:";
             // 
             // label1
             // 
@@ -137,22 +137,22 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(378, 207);
+            this.label5.Location = new System.Drawing.Point(362, 207);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 21);
+            this.label5.Size = new System.Drawing.Size(120, 21);
             this.label5.TabIndex = 27;
-            this.label5.Text = "Quantidade:";
+            this.label5.Text = "🔢Quantidade:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(378, 286);
+            this.label6.Location = new System.Drawing.Point(372, 286);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 21);
+            this.label6.Size = new System.Drawing.Size(106, 21);
             this.label6.TabIndex = 29;
-            this.label6.Text = "Categoria:";
+            this.label6.Text = "🔠Categoria:";
             // 
             // comboBoxCategoriaProduto
             // 
@@ -181,7 +181,7 @@
             this.buttonCADProdutoVoltar.Name = "buttonCADProdutoVoltar";
             this.buttonCADProdutoVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonCADProdutoVoltar.TabIndex = 31;
-            this.buttonCADProdutoVoltar.Text = "Voltar";
+            this.buttonCADProdutoVoltar.Text = "Voltar➡️";
             this.buttonCADProdutoVoltar.UseVisualStyleBackColor = false;
             this.buttonCADProdutoVoltar.Click += new System.EventHandler(this.buttonCADProdutoVoltar_Click);
             // 

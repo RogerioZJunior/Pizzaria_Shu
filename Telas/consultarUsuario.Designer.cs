@@ -70,7 +70,7 @@
             this.buttonCONVoltar.Name = "buttonCONVoltar";
             this.buttonCONVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonCONVoltar.TabIndex = 2;
-            this.buttonCONVoltar.Text = "Voltar";
+            this.buttonCONVoltar.Text = "Voltar➡️";
             this.buttonCONVoltar.UseVisualStyleBackColor = false;
             this.buttonCONVoltar.Click += new System.EventHandler(this.buttonCONVoltar_Click);
             // 

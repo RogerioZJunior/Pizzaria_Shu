@@ -108,7 +108,9 @@ namespace Pizza_Shu.DAOs
                 
                         pr.nome AS Produto,
                         pr.categoria AS Categoria,
-                        p.usuario_codigo AS Usuario
+                        p.usuario_codigo AS Usuario,
+
+                        u.endereco AS Endereço    
 
                     FROM pedido p
 
@@ -118,6 +120,9 @@ namespace Pizza_Shu.DAOs
                     INNER JOIN produto pr
                         ON pp.produto_codigo = pr.codigo
 
+                    INNER JOIN usuario u
+                        ON p.usuario_codigo = u.codigo
+    
                     ORDER BY p.codigo DESC";
 
                     MySqlDataAdapter adapter =

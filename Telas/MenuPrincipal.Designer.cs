@@ -72,7 +72,7 @@
             this.buttonCAD.Name = "buttonCAD";
             this.buttonCAD.Size = new System.Drawing.Size(139, 49);
             this.buttonCAD.TabIndex = 3;
-            this.buttonCAD.Text = "Cadastrar";
+            this.buttonCAD.Text = "👤Cadastrar";
             this.buttonCAD.UseVisualStyleBackColor = false;
             this.buttonCAD.Click += new System.EventHandler(this.buttonCAD_Click);
             // 
@@ -85,7 +85,7 @@
             this.buttonCON.Name = "buttonCON";
             this.buttonCON.Size = new System.Drawing.Size(139, 49);
             this.buttonCON.TabIndex = 4;
-            this.buttonCON.Text = "Consultar";
+            this.buttonCON.Text = "🪪Consultar";
             this.buttonCON.UseVisualStyleBackColor = false;
             this.buttonCON.Click += new System.EventHandler(this.buttonCON_Click);
             // 
@@ -98,7 +98,7 @@
             this.buttonATU.Name = "buttonATU";
             this.buttonATU.Size = new System.Drawing.Size(139, 49);
             this.buttonATU.TabIndex = 5;
-            this.buttonATU.Text = "Atualizar";
+            this.buttonATU.Text = "🔄️Atualizar";
             this.buttonATU.UseVisualStyleBackColor = false;
             this.buttonATU.Click += new System.EventHandler(this.buttonATU_Click);
             // 
@@ -111,7 +111,7 @@
             this.buttonEXC.Name = "buttonEXC";
             this.buttonEXC.Size = new System.Drawing.Size(139, 49);
             this.buttonEXC.TabIndex = 6;
-            this.buttonEXC.Text = "Excluir";
+            this.buttonEXC.Text = "🗑️Excluir";
             this.buttonEXC.UseVisualStyleBackColor = false;
             this.buttonEXC.Click += new System.EventHandler(this.buttonEXC_Click);
             // 
@@ -125,7 +125,7 @@
             this.buttonSair.Name = "buttonSair";
             this.buttonSair.Size = new System.Drawing.Size(113, 40);
             this.buttonSair.TabIndex = 10;
-            this.buttonSair.Text = "Sair";
+            this.buttonSair.Text = "Sair➡️";
             this.buttonSair.UseVisualStyleBackColor = false;
             this.buttonSair.Click += new System.EventHandler(this.buttonSair_Click);
             // 
@@ -161,7 +161,7 @@
             this.buttonPedidos.Name = "buttonPedidos";
             this.buttonPedidos.Size = new System.Drawing.Size(139, 49);
             this.buttonPedidos.TabIndex = 7;
-            this.buttonPedidos.Text = "Pedidos";
+            this.buttonPedidos.Text = "📜Pedidos";
             this.buttonPedidos.UseVisualStyleBackColor = false;
             this.buttonPedidos.Click += new System.EventHandler(this.buttonPedidos_Click);
             // 
@@ -174,7 +174,7 @@
             this.buttonEventos.Name = "buttonEventos";
             this.buttonEventos.Size = new System.Drawing.Size(142, 49);
             this.buttonEventos.TabIndex = 8;
-            this.buttonEventos.Text = "Eventos";
+            this.buttonEventos.Text = "🎉Eventos";
             this.buttonEventos.UseVisualStyleBackColor = false;
             this.buttonEventos.Click += new System.EventHandler(this.buttonEventos_Click);
             // 
@@ -210,7 +210,7 @@
             this.buttonLogs.Name = "buttonLogs";
             this.buttonLogs.Size = new System.Drawing.Size(113, 40);
             this.buttonLogs.TabIndex = 9;
-            this.buttonLogs.Text = "Logs";
+            this.buttonLogs.Text = "📄Logs";
             this.buttonLogs.UseVisualStyleBackColor = false;
             this.buttonLogs.Click += new System.EventHandler(this.buttonLogs_Click);
             // 
@@ -245,7 +245,7 @@
             this.buttonEXCProduto.Name = "buttonEXCProduto";
             this.buttonEXCProduto.Size = new System.Drawing.Size(139, 49);
             this.buttonEXCProduto.TabIndex = 61;
-            this.buttonEXCProduto.Text = "Excluir";
+            this.buttonEXCProduto.Text = "🗑️Excluir";
             this.buttonEXCProduto.UseVisualStyleBackColor = false;
             this.buttonEXCProduto.Click += new System.EventHandler(this.buttonEXCProduto_Click);
             // 
@@ -258,7 +258,7 @@
             this.buttonATUProduto.Name = "buttonATUProduto";
             this.buttonATUProduto.Size = new System.Drawing.Size(139, 49);
             this.buttonATUProduto.TabIndex = 60;
-            this.buttonATUProduto.Text = "Atualizar";
+            this.buttonATUProduto.Text = "🔄️Atualizar";
             this.buttonATUProduto.UseVisualStyleBackColor = false;
             this.buttonATUProduto.Click += new System.EventHandler(this.buttonATUProduto_Click);
             // 
@@ -271,7 +271,7 @@
             this.buttonConProduto.Name = "buttonConProduto";
             this.buttonConProduto.Size = new System.Drawing.Size(139, 49);
             this.buttonConProduto.TabIndex = 59;
-            this.buttonConProduto.Text = "Consultar";
+            this.buttonConProduto.Text = "🔎Consultar";
             this.buttonConProduto.UseVisualStyleBackColor = false;
             this.buttonConProduto.Click += new System.EventHandler(this.buttonConProduto_Click);
             // 
@@ -284,7 +284,7 @@
             this.buttonCADProduto.Name = "buttonCADProduto";
             this.buttonCADProduto.Size = new System.Drawing.Size(139, 49);
             this.buttonCADProduto.TabIndex = 58;
-            this.buttonCADProduto.Text = "Cadastrar";
+            this.buttonCADProduto.Text = "🍕Cadastrar";
             this.buttonCADProduto.UseVisualStyleBackColor = false;
             this.buttonCADProduto.Click += new System.EventHandler(this.buttonCADProduto_Click);
             // 

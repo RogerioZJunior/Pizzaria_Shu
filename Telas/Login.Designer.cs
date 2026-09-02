@@ -60,11 +60,11 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
-            this.label2.Location = new System.Drawing.Point(446, 338);
+            this.label2.Location = new System.Drawing.Point(424, 342);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 31);
+            this.label2.Size = new System.Drawing.Size(116, 31);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Email:";
+            this.label2.Text = "📧Email:";
             // 
             // label3
             // 
@@ -72,11 +72,11 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F);
-            this.label3.Location = new System.Drawing.Point(443, 421);
+            this.label3.Location = new System.Drawing.Point(424, 421);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 31);
+            this.label3.Size = new System.Drawing.Size(119, 31);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Senha:";
+            this.label3.Text = "🔑Senha:";
             // 
             // textBoxLoginEmail
             // 
@@ -124,7 +124,7 @@
             this.buttonLoginSair.Name = "buttonLoginSair";
             this.buttonLoginSair.Size = new System.Drawing.Size(139, 49);
             this.buttonLoginSair.TabIndex = 8;
-            this.buttonLoginSair.Text = "Sair";
+            this.buttonLoginSair.Text = "Sair➡️";
             this.buttonLoginSair.UseVisualStyleBackColor = false;
             this.buttonLoginSair.Click += new System.EventHandler(this.buttonLoginSair_Click);
             // 

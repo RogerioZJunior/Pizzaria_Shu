@@ -50,7 +50,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(88, 161);
+            this.label1.Location = new System.Drawing.Point(138, 162);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 31);
             this.label1.TabIndex = 0;
@@ -61,61 +61,61 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 271);
+            this.label2.Location = new System.Drawing.Point(35, 264);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 21);
+            this.label2.Size = new System.Drawing.Size(80, 21);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Nome:";
+            this.label2.Text = "👤Nome:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(5, 306);
+            this.label3.Location = new System.Drawing.Point(23, 305);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 21);
+            this.label3.Size = new System.Drawing.Size(99, 21);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Telefone:";
+            this.label3.Text = "📞Telefone:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 345);
+            this.label4.Location = new System.Drawing.Point(16, 344);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 21);
+            this.label4.Size = new System.Drawing.Size(106, 21);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Endereço:";
+            this.label4.Text = "🗺️Endereço:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 442);
+            this.label5.Location = new System.Drawing.Point(35, 441);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 21);
+            this.label5.Size = new System.Drawing.Size(76, 21);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Email:";
+            this.label5.Text = "📧Email:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 483);
+            this.label6.Location = new System.Drawing.Point(31, 482);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 21);
+            this.label6.Size = new System.Drawing.Size(80, 21);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Senha:";
+            this.label6.Text = "🔑Senha:";
             // 
             // textBoxNome
             // 
             this.textBoxNome.BackColor = System.Drawing.Color.Ivory;
             this.textBoxNome.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNome.Location = new System.Drawing.Point(94, 257);
+            this.textBoxNome.Location = new System.Drawing.Point(126, 256);
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(238, 35);
             this.textBoxNome.TabIndex = 6;
@@ -125,7 +125,7 @@
             // 
             this.textBoxEndereco.BackColor = System.Drawing.Color.Ivory;
             this.textBoxEndereco.Font = new System.Drawing.Font("Times New Roman", 18F);
-            this.textBoxEndereco.Location = new System.Drawing.Point(94, 337);
+            this.textBoxEndereco.Location = new System.Drawing.Point(126, 336);
             this.textBoxEndereco.Name = "textBoxEndereco";
             this.textBoxEndereco.Size = new System.Drawing.Size(238, 35);
             this.textBoxEndereco.TabIndex = 8;
@@ -135,7 +135,7 @@
             // 
             this.textBoxEmail.BackColor = System.Drawing.Color.Ivory;
             this.textBoxEmail.Font = new System.Drawing.Font("Times New Roman", 18F);
-            this.textBoxEmail.Location = new System.Drawing.Point(94, 434);
+            this.textBoxEmail.Location = new System.Drawing.Point(126, 433);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(238, 35);
             this.textBoxEmail.TabIndex = 9;
@@ -145,7 +145,7 @@
             // 
             this.textBoxSenha.BackColor = System.Drawing.Color.Ivory;
             this.textBoxSenha.Font = new System.Drawing.Font("Times New Roman", 18F);
-            this.textBoxSenha.Location = new System.Drawing.Point(94, 475);
+            this.textBoxSenha.Location = new System.Drawing.Point(126, 474);
             this.textBoxSenha.Name = "textBoxSenha";
             this.textBoxSenha.Size = new System.Drawing.Size(238, 35);
             this.textBoxSenha.TabIndex = 10;
@@ -156,7 +156,7 @@
             this.checkBoxADM.AutoSize = true;
             this.checkBoxADM.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxADM.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxADM.Location = new System.Drawing.Point(94, 519);
+            this.checkBoxADM.Location = new System.Drawing.Point(126, 518);
             this.checkBoxADM.Name = "checkBoxADM";
             this.checkBoxADM.Size = new System.Drawing.Size(149, 27);
             this.checkBoxADM.TabIndex = 11;
@@ -169,11 +169,11 @@
             this.buttonCadastrar.BackColor = System.Drawing.Color.Ivory;
             this.buttonCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCadastrar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadastrar.Location = new System.Drawing.Point(146, 579);
+            this.buttonCadastrar.Location = new System.Drawing.Point(170, 574);
             this.buttonCadastrar.Name = "buttonCadastrar";
             this.buttonCadastrar.Size = new System.Drawing.Size(139, 49);
             this.buttonCadastrar.TabIndex = 12;
-            this.buttonCadastrar.Text = "Cadastrar";
+            this.buttonCadastrar.Text = "👤Cadastrar";
             this.buttonCadastrar.UseVisualStyleBackColor = false;
             this.buttonCadastrar.Click += new System.EventHandler(this.buttonCadastrar_Click);
             // 
@@ -187,7 +187,7 @@
             this.buttonCADVoltar.Name = "buttonCADVoltar";
             this.buttonCADVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonCADVoltar.TabIndex = 13;
-            this.buttonCADVoltar.Text = "Voltar";
+            this.buttonCADVoltar.Text = "Voltar➡️";
             this.buttonCADVoltar.UseVisualStyleBackColor = false;
             this.buttonCADVoltar.Click += new System.EventHandler(this.buttonCADVoltar_Click);
             // 
@@ -195,7 +195,7 @@
             // 
             this.maskedTextBoxTelefone.BackColor = System.Drawing.Color.Ivory;
             this.maskedTextBoxTelefone.Font = new System.Drawing.Font("Times New Roman", 18F);
-            this.maskedTextBoxTelefone.Location = new System.Drawing.Point(94, 298);
+            this.maskedTextBoxTelefone.Location = new System.Drawing.Point(126, 297);
             this.maskedTextBoxTelefone.Mask = "(99) 00000-0000";
             this.maskedTextBoxTelefone.Name = "maskedTextBoxTelefone";
             this.maskedTextBoxTelefone.Size = new System.Drawing.Size(238, 35);

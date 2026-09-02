@@ -46,7 +46,7 @@
             this.buttonEXCVoltar.Name = "buttonEXCVoltar";
             this.buttonEXCVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonEXCVoltar.TabIndex = 39;
-            this.buttonEXCVoltar.Text = "Voltar";
+            this.buttonEXCVoltar.Text = "Voltar➡️";
             this.buttonEXCVoltar.UseVisualStyleBackColor = false;
             this.buttonEXCVoltar.Click += new System.EventHandler(this.buttonEXCVoltar_Click);
             // 
@@ -71,7 +71,7 @@
             this.buttonEXCExcluir.Name = "buttonEXCExcluir";
             this.buttonEXCExcluir.Size = new System.Drawing.Size(113, 40);
             this.buttonEXCExcluir.TabIndex = 38;
-            this.buttonEXCExcluir.Text = "Excluir";
+            this.buttonEXCExcluir.Text = "🗑️Excluir";
             this.buttonEXCExcluir.UseVisualStyleBackColor = false;
             this.buttonEXCExcluir.Click += new System.EventHandler(this.buttonEXCExcluir_Click);
             // 
@@ -81,11 +81,11 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(463, 354);
+            this.label7.Location = new System.Drawing.Point(453, 357);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 21);
+            this.label7.Size = new System.Drawing.Size(91, 21);
             this.label7.TabIndex = 37;
-            this.label7.Text = "Código:";
+            this.label7.Text = "🪪Código:";
             // 
             // label1
             // 
