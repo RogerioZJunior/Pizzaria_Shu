@@ -53,7 +53,7 @@
             this.buttonEVEVoltar.Location = new System.Drawing.Point(655, 697);
             this.buttonEVEVoltar.Name = "buttonEVEVoltar";
             this.buttonEVEVoltar.Size = new System.Drawing.Size(113, 40);
-            this.buttonEVEVoltar.TabIndex = 5;
+            this.buttonEVEVoltar.TabIndex = 9;
             this.buttonEVEVoltar.Text = "Voltar➡️";
             this.buttonEVEVoltar.UseVisualStyleBackColor = false;
             this.buttonEVEVoltar.Click += new System.EventHandler(this.buttonEVEVoltar_Click);
@@ -67,7 +67,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(436, 39);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(930, 652);
-            this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.TabIndex = 8;
             // 
             // label1
             // 
@@ -91,7 +91,7 @@
             this.buttonSelecionar.Location = new System.Drawing.Point(321, 137);
             this.buttonSelecionar.Name = "buttonSelecionar";
             this.buttonSelecionar.Size = new System.Drawing.Size(113, 40);
-            this.buttonSelecionar.TabIndex = 62;
+            this.buttonSelecionar.TabIndex = 5;
             this.buttonSelecionar.Text = "🎉Selecionar";
             this.buttonSelecionar.UseVisualStyleBackColor = false;
             this.buttonSelecionar.Click += new System.EventHandler(this.buttonSelecionar_Click);
@@ -115,11 +115,12 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Em Análise",
             "Confirmado ",
+            "Realizado",
             "Cancelado"});
             this.comboBox1.Location = new System.Drawing.Point(77, 252);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(238, 35);
-            this.comboBox1.TabIndex = 60;
+            this.comboBox1.TabIndex = 6;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBoxCodigo
@@ -129,7 +130,7 @@
             this.textBoxCodigo.Location = new System.Drawing.Point(77, 142);
             this.textBoxCodigo.Name = "textBoxCodigo";
             this.textBoxCodigo.Size = new System.Drawing.Size(238, 35);
-            this.textBoxCodigo.TabIndex = 59;
+            this.textBoxCodigo.TabIndex = 4;
             this.textBoxCodigo.TextChanged += new System.EventHandler(this.textBoxCodigo_TextChanged);
             // 
             // label7
@@ -148,10 +149,10 @@
             this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAtualizar.Location = new System.Drawing.Point(108, 356);
+            this.buttonAtualizar.Location = new System.Drawing.Point(108, 347);
             this.buttonAtualizar.Name = "buttonAtualizar";
-            this.buttonAtualizar.Size = new System.Drawing.Size(139, 49);
-            this.buttonAtualizar.TabIndex = 58;
+            this.buttonAtualizar.Size = new System.Drawing.Size(145, 55);
+            this.buttonAtualizar.TabIndex = 7;
             this.buttonAtualizar.Text = "🔄️Atualizar";
             this.buttonAtualizar.UseVisualStyleBackColor = false;
             this.buttonAtualizar.Click += new System.EventHandler(this.buttonAtualizar_Click);
@@ -174,7 +175,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(31, 433);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(284, 226);
+            this.pictureBox1.Size = new System.Drawing.Size(340, 226);
             this.pictureBox1.TabIndex = 63;
             this.pictureBox1.TabStop = false;
             // 

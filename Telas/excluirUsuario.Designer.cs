@@ -41,10 +41,10 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(628, 226);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(630, 213);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 31);
+            this.label1.Size = new System.Drawing.Size(194, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Excluir Usuário";
             // 
@@ -52,10 +52,10 @@
             // 
             this.textBoxEXCCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxEXCCodigo.BackColor = System.Drawing.Color.Ivory;
-            this.textBoxEXCCodigo.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEXCCodigo.Location = new System.Drawing.Point(589, 305);
+            this.textBoxEXCCodigo.Font = new System.Drawing.Font("Times New Roman", 24F);
+            this.textBoxEXCCodigo.Location = new System.Drawing.Point(520, 305);
             this.textBoxEXCCodigo.Name = "textBoxEXCCodigo";
-            this.textBoxEXCCodigo.Size = new System.Drawing.Size(238, 35);
+            this.textBoxEXCCodigo.Size = new System.Drawing.Size(394, 44);
             this.textBoxEXCCodigo.TabIndex = 32;
             this.textBoxEXCCodigo.TextChanged += new System.EventHandler(this.textBoxEXCCodigo_TextChanged);
             // 
@@ -63,11 +63,12 @@
             // 
             this.buttonEXCExcluir.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEXCExcluir.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEXCExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEXCExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEXCExcluir.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEXCExcluir.Location = new System.Drawing.Point(833, 302);
+            this.buttonEXCExcluir.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonEXCExcluir.Location = new System.Drawing.Point(930, 301);
             this.buttonEXCExcluir.Name = "buttonEXCExcluir";
-            this.buttonEXCExcluir.Size = new System.Drawing.Size(113, 40);
+            this.buttonEXCExcluir.Size = new System.Drawing.Size(145, 55);
             this.buttonEXCExcluir.TabIndex = 33;
             this.buttonEXCExcluir.Text = "🗑️Excluir";
             this.buttonEXCExcluir.UseVisualStyleBackColor = false;
@@ -78,10 +79,10 @@
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(492, 313);
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 20.25F);
+            this.label7.Location = new System.Drawing.Point(383, 312);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 21);
+            this.label7.Size = new System.Drawing.Size(131, 31);
             this.label7.TabIndex = 32;
             this.label7.Text = "🪪Código:";
             // 
@@ -89,11 +90,12 @@
             // 
             this.buttonEXCVoltar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEXCVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEXCVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEXCVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEXCVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEXCVoltar.Location = new System.Drawing.Point(657, 395);
+            this.buttonEXCVoltar.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEXCVoltar.Location = new System.Drawing.Point(662, 402);
             this.buttonEXCVoltar.Name = "buttonEXCVoltar";
-            this.buttonEXCVoltar.Size = new System.Drawing.Size(113, 40);
+            this.buttonEXCVoltar.Size = new System.Drawing.Size(145, 55);
             this.buttonEXCVoltar.TabIndex = 34;
             this.buttonEXCVoltar.Text = "Voltar➡️";
             this.buttonEXCVoltar.UseVisualStyleBackColor = false;

@@ -118,28 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pizzaria_shu menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizzaria_shu menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="restaurante2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurante2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo pizza do shu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo pizza do shu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fundo ofical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo ofical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cartaozinho feito com amor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cartaozinho feito com amor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartaozinho feito com amor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartaozinho feito com amor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fundo do orçamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fundo do orçamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fundo Oficial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fundo Oficial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fundo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="casal2.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\casal2.png.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pizza_shu menu principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pizza_shu menu principal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizzaria_shu menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzaria_shu menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartaozinho feito com amor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartaozinho feito com amor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo pizza do shu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo pizza do shu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo bem vindo de volta pra colocar no login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo bem vindo de volta pra colocar no login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CASAL.PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CASAL.PNG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo bem vindo de volta pra colocar no login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo bem vindo de volta pra colocar no login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fundo do orçamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo do orçamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartaozinho feito com amor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartaozinho feito com amor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -263,5 +263,26 @@
   <ItemGroup>
     <None Include="Resources\logo bem vindo de volta pra colocar no login.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo ofical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo Oficial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CASAL.PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casal2.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartaozinho feito com amor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurante2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartaozinho feito com amor2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

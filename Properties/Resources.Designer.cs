@@ -73,6 +73,46 @@ namespace Pizza_Shu.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cartaozinho_feito_com_amor1 {
+            get {
+                object obj = ResourceManager.GetObject("cartaozinho feito com amor1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cartaozinho_feito_com_amor2 {
+            get {
+                object obj = ResourceManager.GetObject("cartaozinho feito com amor2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CASAL_PNG {
+            get {
+                object obj = ResourceManager.GetObject("CASAL.PNG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap casal2_png {
+            get {
+                object obj = ResourceManager.GetObject("casal2.png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo {
             get {
                 object obj = ResourceManager.GetObject("fundo", resourceCulture);
@@ -96,6 +136,26 @@ namespace Pizza_Shu.Properties {
         internal static System.Drawing.Bitmap fundo_do_orçamento {
             get {
                 object obj = ResourceManager.GetObject("fundo do orçamento", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_ofical {
+            get {
+                object obj = ResourceManager.GetObject("fundo ofical", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fundo_Oficial {
+            get {
+                object obj = ResourceManager.GetObject("Fundo Oficial", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +196,16 @@ namespace Pizza_Shu.Properties {
         internal static System.Drawing.Bitmap pizzaria_shu_menu {
             get {
                 object obj = ResourceManager.GetObject("pizzaria_shu menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap restaurante2 {
+            get {
+                object obj = ResourceManager.GetObject("restaurante2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -41,7 +41,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(601, 43);
+            this.label1.Location = new System.Drawing.Point(612, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 27);
             this.label1.TabIndex = 0;
@@ -54,9 +54,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 73);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 39);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1346, 552);
+            this.dataGridView1.Size = new System.Drawing.Size(1365, 652);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -66,7 +66,7 @@
             this.buttonCONVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonCONVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCONVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCONVoltar.Location = new System.Drawing.Point(650, 631);
+            this.buttonCONVoltar.Location = new System.Drawing.Point(656, 697);
             this.buttonCONVoltar.Name = "buttonCONVoltar";
             this.buttonCONVoltar.Size = new System.Drawing.Size(113, 40);
             this.buttonCONVoltar.TabIndex = 2;
