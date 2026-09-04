@@ -123,6 +123,11 @@ namespace Pizza_Shu
             this.Show();
         }//botão evento
 
+        private void buttonRelatorios_Click(object sender, EventArgs e)
+        {
+
+        }//botão relatorios
+
         private void buttonLogs_Click(object sender, EventArgs e)
         {
             log log = new log(UsuarioCodigo);
@@ -145,6 +150,6 @@ namespace Pizza_Shu
 
         }//
 
-    
+ 
     }//fim da classe
 }//fim do projeto

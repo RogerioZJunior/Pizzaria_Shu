@@ -113,6 +113,26 @@ namespace Pizza_Shu.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Designer {
+            get {
+                object obj = ResourceManager.GetObject("Designer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Designer__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Designer (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo {
             get {
                 object obj = ResourceManager.GetObject("fundo", resourceCulture);
@@ -196,6 +216,16 @@ namespace Pizza_Shu.Properties {
         internal static System.Drawing.Bitmap pizzaria_shu_menu {
             get {
                 object obj = ResourceManager.GetObject("pizzaria_shu menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pizzaria_shu_menu_principal__1_ {
+            get {
+                object obj = ResourceManager.GetObject("pizzaria shu menu principal (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

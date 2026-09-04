@@ -284,5 +284,14 @@
   <ItemGroup>
     <None Include="Resources\cartaozinho feito com amor2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Designer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Designer %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzaria shu menu principal %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
