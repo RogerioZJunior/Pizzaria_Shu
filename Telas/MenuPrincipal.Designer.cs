@@ -247,7 +247,7 @@
             this.buttonRelatorios.Name = "buttonRelatorios";
             this.buttonRelatorios.Size = new System.Drawing.Size(225, 55);
             this.buttonRelatorios.TabIndex = 15;
-            this.buttonRelatorios.Text = "📊Relatorios";
+            this.buttonRelatorios.Text = "📊Relatórios";
             this.buttonRelatorios.UseVisualStyleBackColor = false;
             this.buttonRelatorios.Click += new System.EventHandler(this.buttonRelatorios_Click);
             // 

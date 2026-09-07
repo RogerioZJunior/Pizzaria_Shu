@@ -124,14 +124,17 @@
   <data name="fundo ofical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo ofical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cartaozinho feito com amor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cartaozinho feito com amor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pizza shu sem nada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza shu sem nada.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fundo Oficial" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fundo Oficial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fundo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza_shu relatorios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza_shu relatorios.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pizzaria shu menu principal (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pizzaria shu menu principal (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -150,6 +153,9 @@
   </data>
   <data name="logo pizza do shu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo pizza do shu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartaozinho feito com amor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartaozinho feito com amor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo bem vindo de volta pra colocar no login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo bem vindo de volta pra colocar no login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +178,7 @@
   <data name="fundo do orçamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo do orçamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pizza shu sem nada" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza shu sem nada.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pizza_shu relatorios 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza_shu relatorios 2.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

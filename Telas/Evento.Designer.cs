@@ -117,7 +117,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Em Análise",
             "Confirmado ",
-            "Realizado",
+            "Concluido",
             "Cancelado"});
             this.comboBox1.Location = new System.Drawing.Point(77, 252);
             this.comboBox1.Name = "comboBox1";

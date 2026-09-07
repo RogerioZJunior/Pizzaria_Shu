@@ -105,6 +105,7 @@ namespace Pizza_Shu.DAOs
                         p.statuss AS Status,
                         p.quantidade AS Quantidade,
                         p.valor AS Valor,
+                        p.forma_pagamento AS 'Forma de Pagamento', 
                 
                         pr.nome AS Produto,
                         pr.categoria AS Categoria,

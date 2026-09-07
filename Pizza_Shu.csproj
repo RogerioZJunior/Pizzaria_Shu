@@ -92,10 +92,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAOs\DAORelatorio.cs" />
     <Compile Include="DAOs\conexaoBD.cs" />
     <Compile Include="DAOs\DAOProduto.cs" />
     <Compile Include="DAOs\DAOusuario.cs" />
     <Compile Include="DAOs\LogDAO.cs" />
+    <Compile Include="Telas\Relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Relatorio.Designer.cs">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\atualizarProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +183,9 @@
     <Compile Include="Telas\Pedido.Designer.cs">
       <DependentUpon>Pedido.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas\Relatorio.resx">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\atualizarProduto.resx">
       <DependentUpon>atualizarProduto.cs</DependentUpon>
     </EmbeddedResource>
@@ -295,6 +305,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pizza shu sem nada.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza_shu relatorios.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza_shu relatorios 2.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

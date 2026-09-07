@@ -28,6 +28,7 @@ namespace Pizza_Shu
         excluirProduto     excPro;
         Pedido             pedido;
         Evento             evento;
+        Relatorio            rela;
         Login               login;
         log                   log;
 
@@ -125,7 +126,14 @@ namespace Pizza_Shu
 
         private void buttonRelatorios_Click(object sender, EventArgs e)
         {
-
+            Relatorio rela = new Relatorio(UsuarioCodigo);
+            this.Hide();
+            rela.ShowDialog();
+            Log.InserirLog(
+            UsuarioCodigo,
+            "Consultou Relatórios"
+            );
+            this.Show();
         }//botão relatorios
 
         private void buttonLogs_Click(object sender, EventArgs e)

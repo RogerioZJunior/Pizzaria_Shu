@@ -198,3 +198,4 @@ C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.csproj.CoreCo
 C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.csproj.Up2Date
 C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.exe
 C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.pdb
+C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Relatorio.resources
