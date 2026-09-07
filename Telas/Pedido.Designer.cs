@@ -50,6 +50,7 @@
             this.buttonPedidoVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonPedidoVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPedidoVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPedidoVoltar.ForeColor = System.Drawing.Color.OrangeRed;
             this.buttonPedidoVoltar.Location = new System.Drawing.Point(631, 697);
             this.buttonPedidoVoltar.Name = "buttonPedidoVoltar";
             this.buttonPedidoVoltar.Size = new System.Drawing.Size(113, 40);
@@ -100,6 +101,7 @@
             this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAtualizar.ForeColor = System.Drawing.Color.OrangeRed;
             this.buttonAtualizar.Location = new System.Drawing.Point(119, 333);
             this.buttonAtualizar.Name = "buttonAtualizar";
             this.buttonAtualizar.Size = new System.Drawing.Size(145, 55);
@@ -115,7 +117,7 @@
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(3, 138);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 19);
+            this.label7.Size = new System.Drawing.Size(72, 19);
             this.label7.TabIndex = 50;
             this.label7.Text = "📃Código:";
             // 
@@ -163,6 +165,7 @@
             this.buttonSelecionar.BackColor = System.Drawing.Color.Ivory;
             this.buttonSelecionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSelecionar.ForeColor = System.Drawing.Color.OrangeRed;
             this.buttonSelecionar.Location = new System.Drawing.Point(317, 127);
             this.buttonSelecionar.Name = "buttonSelecionar";
             this.buttonSelecionar.Size = new System.Drawing.Size(113, 40);
@@ -186,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.pictureBox2);

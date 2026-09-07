@@ -49,9 +49,10 @@
             // buttonCadastrarProduto
             // 
             this.buttonCadastrarProduto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonCadastrarProduto.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCadastrarProduto.BackColor = System.Drawing.Color.White;
             this.buttonCadastrarProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCadastrarProduto.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonCadastrarProduto.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonCadastrarProduto.Location = new System.Drawing.Point(600, 591);
             this.buttonCadastrarProduto.Name = "buttonCadastrarProduto";
             this.buttonCadastrarProduto.Size = new System.Drawing.Size(145, 55);
@@ -79,7 +80,7 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label4.Location = new System.Drawing.Point(151, 390);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 31);
+            this.label4.Size = new System.Drawing.Size(101, 31);
             this.label4.TabIndex = 16;
             this.label4.Text = "💲Preço:";
             // 
@@ -91,7 +92,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label3.Location = new System.Drawing.Point(106, 296);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 31);
+            this.label3.Size = new System.Drawing.Size(156, 31);
             this.label3.TabIndex = 15;
             this.label3.Text = "📃Descrição:";
             // 
@@ -103,7 +104,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label2.Location = new System.Drawing.Point(148, 213);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 31);
+            this.label2.Size = new System.Drawing.Size(110, 31);
             this.label2.TabIndex = 14;
             this.label2.Text = "🍕Nome:";
             // 
@@ -190,6 +191,7 @@
             this.buttonCADProdutoVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonCADProdutoVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCADProdutoVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonCADProdutoVoltar.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonCADProdutoVoltar.Location = new System.Drawing.Point(1213, 682);
             this.buttonCADProdutoVoltar.Name = "buttonCADProdutoVoltar";
             this.buttonCADProdutoVoltar.Size = new System.Drawing.Size(145, 55);
@@ -225,7 +227,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.pictureBox1);

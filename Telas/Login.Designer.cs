@@ -37,8 +37,10 @@
             this.buttonEntrar = new System.Windows.Forms.Button();
             this.buttonLoginSair = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -104,6 +106,7 @@
             // buttonEntrar
             // 
             this.buttonEntrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonEntrar.BackColor = System.Drawing.Color.White;
             this.buttonEntrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.buttonEntrar.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.buttonEntrar.Location = new System.Drawing.Point(636, 502);
@@ -111,15 +114,16 @@
             this.buttonEntrar.Size = new System.Drawing.Size(145, 55);
             this.buttonEntrar.TabIndex = 6;
             this.buttonEntrar.Text = "Entrar";
-            this.buttonEntrar.UseVisualStyleBackColor = true;
+            this.buttonEntrar.UseVisualStyleBackColor = false;
             this.buttonEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
             // 
             // buttonLoginSair
             // 
             this.buttonLoginSair.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonLoginSair.BackColor = System.Drawing.SystemColors.Window;
+            this.buttonLoginSair.BackColor = System.Drawing.Color.Red;
             this.buttonLoginSair.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.buttonLoginSair.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonLoginSair.ForeColor = System.Drawing.Color.Black;
             this.buttonLoginSair.Location = new System.Drawing.Point(636, 633);
             this.buttonLoginSair.Name = "buttonLoginSair";
             this.buttonLoginSair.Size = new System.Drawing.Size(145, 55);
@@ -140,13 +144,26 @@
             this.pictureBox3.TabIndex = 59;
             this.pictureBox3.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor2;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(56, 272);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(335, 285);
+            this.pictureBox2.TabIndex = 60;
+            this.pictureBox2.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.buttonLoginSair);
             this.Controls.Add(this.buttonEntrar);
@@ -162,6 +179,7 @@
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,5 +195,6 @@
         private System.Windows.Forms.Button buttonEntrar;
         private System.Windows.Forms.Button buttonLoginSair;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

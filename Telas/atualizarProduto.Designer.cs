@@ -65,6 +65,7 @@
             this.buttonProcurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonProcurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProcurar.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonProcurar.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonProcurar.Location = new System.Drawing.Point(924, 137);
             this.buttonProcurar.Name = "buttonProcurar";
             this.buttonProcurar.Size = new System.Drawing.Size(145, 55);
@@ -81,7 +82,7 @@
             this.label7.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label7.Location = new System.Drawing.Point(407, 141);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 31);
+            this.label7.Size = new System.Drawing.Size(114, 31);
             this.label7.TabIndex = 44;
             this.label7.Text = "🪪Código:";
             // 
@@ -92,6 +93,7 @@
             this.buttonAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonAtualizar.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonAtualizar.Location = new System.Drawing.Point(657, 656);
             this.buttonAtualizar.Name = "buttonAtualizar";
             this.buttonAtualizar.Size = new System.Drawing.Size(145, 55);
@@ -142,7 +144,7 @@
             this.label5.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label5.Location = new System.Drawing.Point(424, 400);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 31);
+            this.label5.Size = new System.Drawing.Size(101, 31);
             this.label5.TabIndex = 35;
             this.label5.Text = "💲Preço:";
             // 
@@ -154,7 +156,7 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label4.Location = new System.Drawing.Point(379, 295);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(159, 31);
+            this.label4.Size = new System.Drawing.Size(156, 31);
             this.label4.TabIndex = 34;
             this.label4.Text = "📃Descrição:";
             // 
@@ -166,7 +168,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label2.Location = new System.Drawing.Point(421, 220);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 31);
+            this.label2.Size = new System.Drawing.Size(110, 31);
             this.label2.TabIndex = 32;
             this.label2.Text = "🍕Nome:";
             // 
@@ -242,6 +244,7 @@
             this.buttonATUVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonATUVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonATUVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonATUVoltar.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonATUVoltar.Location = new System.Drawing.Point(1213, 682);
             this.buttonATUVoltar.Name = "buttonATUVoltar";
             this.buttonATUVoltar.Size = new System.Drawing.Size(145, 55);
@@ -254,7 +257,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonATUVoltar);

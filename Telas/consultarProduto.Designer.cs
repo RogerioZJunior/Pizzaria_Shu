@@ -66,6 +66,7 @@
             this.buttonCONVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonCONVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCONVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCONVoltar.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonCONVoltar.Location = new System.Drawing.Point(657, 697);
             this.buttonCONVoltar.Name = "buttonCONVoltar";
             this.buttonCONVoltar.Size = new System.Drawing.Size(113, 40);
@@ -78,7 +79,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonCONVoltar);

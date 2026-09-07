@@ -50,6 +50,7 @@
             this.buttonEVEVoltar.BackColor = System.Drawing.Color.Ivory;
             this.buttonEVEVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEVEVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEVEVoltar.ForeColor = System.Drawing.Color.DodgerBlue;
             this.buttonEVEVoltar.Location = new System.Drawing.Point(655, 697);
             this.buttonEVEVoltar.Name = "buttonEVEVoltar";
             this.buttonEVEVoltar.Size = new System.Drawing.Size(113, 40);
@@ -88,6 +89,7 @@
             this.buttonSelecionar.BackColor = System.Drawing.Color.Ivory;
             this.buttonSelecionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSelecionar.ForeColor = System.Drawing.Color.DodgerBlue;
             this.buttonSelecionar.Location = new System.Drawing.Point(321, 137);
             this.buttonSelecionar.Name = "buttonSelecionar";
             this.buttonSelecionar.Size = new System.Drawing.Size(113, 40);
@@ -149,6 +151,7 @@
             this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAtualizar.ForeColor = System.Drawing.Color.DodgerBlue;
             this.buttonAtualizar.Location = new System.Drawing.Point(108, 347);
             this.buttonAtualizar.Name = "buttonAtualizar";
             this.buttonAtualizar.Size = new System.Drawing.Size(145, 55);
@@ -183,7 +186,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.pictureBox1);

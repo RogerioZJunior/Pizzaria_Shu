@@ -52,7 +52,7 @@
             this.buttonCAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCAD.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCAD.ForeColor = System.Drawing.Color.Red;
-            this.buttonCAD.Location = new System.Drawing.Point(94, 434);
+            this.buttonCAD.Location = new System.Drawing.Point(45, 374);
             this.buttonCAD.Name = "buttonCAD";
             this.buttonCAD.Size = new System.Drawing.Size(225, 55);
             this.buttonCAD.TabIndex = 3;
@@ -68,7 +68,7 @@
             this.buttonCON.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCON.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCON.ForeColor = System.Drawing.Color.Red;
-            this.buttonCON.Location = new System.Drawing.Point(94, 495);
+            this.buttonCON.Location = new System.Drawing.Point(45, 435);
             this.buttonCON.Name = "buttonCON";
             this.buttonCON.Size = new System.Drawing.Size(225, 55);
             this.buttonCON.TabIndex = 4;
@@ -84,7 +84,7 @@
             this.buttonATU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonATU.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonATU.ForeColor = System.Drawing.Color.Red;
-            this.buttonATU.Location = new System.Drawing.Point(94, 556);
+            this.buttonATU.Location = new System.Drawing.Point(45, 496);
             this.buttonATU.Name = "buttonATU";
             this.buttonATU.Size = new System.Drawing.Size(225, 55);
             this.buttonATU.TabIndex = 5;
@@ -100,7 +100,7 @@
             this.buttonEXC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXC.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEXC.ForeColor = System.Drawing.Color.Red;
-            this.buttonEXC.Location = new System.Drawing.Point(94, 617);
+            this.buttonEXC.Location = new System.Drawing.Point(45, 557);
             this.buttonEXC.Name = "buttonEXC";
             this.buttonEXC.Size = new System.Drawing.Size(225, 55);
             this.buttonEXC.TabIndex = 6;
@@ -115,7 +115,7 @@
             this.buttonSair.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSair.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSair.Location = new System.Drawing.Point(1704, 789);
+            this.buttonSair.Location = new System.Drawing.Point(1190, 669);
             this.buttonSair.Name = "buttonSair";
             this.buttonSair.Size = new System.Drawing.Size(150, 50);
             this.buttonSair.TabIndex = 14;
@@ -131,7 +131,7 @@
             this.buttonPedidos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPedidos.Font = new System.Drawing.Font("Times New Roman", 15.75F);
             this.buttonPedidos.ForeColor = System.Drawing.Color.OrangeRed;
-            this.buttonPedidos.Location = new System.Drawing.Point(855, 434);
+            this.buttonPedidos.Location = new System.Drawing.Point(595, 374);
             this.buttonPedidos.Name = "buttonPedidos";
             this.buttonPedidos.Size = new System.Drawing.Size(225, 55);
             this.buttonPedidos.TabIndex = 11;
@@ -147,7 +147,7 @@
             this.buttonEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEventos.Font = new System.Drawing.Font("Times New Roman", 15.75F);
             this.buttonEventos.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonEventos.Location = new System.Drawing.Point(1211, 434);
+            this.buttonEventos.Location = new System.Drawing.Point(853, 374);
             this.buttonEventos.Name = "buttonEventos";
             this.buttonEventos.Size = new System.Drawing.Size(225, 55);
             this.buttonEventos.TabIndex = 12;
@@ -163,7 +163,7 @@
             this.buttonLogs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogs.Font = new System.Drawing.Font("Times New Roman", 15.75F);
             this.buttonLogs.ForeColor = System.Drawing.Color.Black;
-            this.buttonLogs.Location = new System.Drawing.Point(1534, 789);
+            this.buttonLogs.Location = new System.Drawing.Point(1020, 669);
             this.buttonLogs.Name = "buttonLogs";
             this.buttonLogs.Size = new System.Drawing.Size(150, 50);
             this.buttonLogs.TabIndex = 13;
@@ -179,7 +179,7 @@
             this.buttonEXCProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXCProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEXCProduto.ForeColor = System.Drawing.Color.OliveDrab;
-            this.buttonEXCProduto.Location = new System.Drawing.Point(474, 617);
+            this.buttonEXCProduto.Location = new System.Drawing.Point(317, 557);
             this.buttonEXCProduto.Name = "buttonEXCProduto";
             this.buttonEXCProduto.Size = new System.Drawing.Size(225, 55);
             this.buttonEXCProduto.TabIndex = 10;
@@ -195,7 +195,7 @@
             this.buttonATUProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonATUProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonATUProduto.ForeColor = System.Drawing.Color.OliveDrab;
-            this.buttonATUProduto.Location = new System.Drawing.Point(474, 556);
+            this.buttonATUProduto.Location = new System.Drawing.Point(317, 496);
             this.buttonATUProduto.Name = "buttonATUProduto";
             this.buttonATUProduto.Size = new System.Drawing.Size(225, 55);
             this.buttonATUProduto.TabIndex = 9;
@@ -211,7 +211,7 @@
             this.buttonConProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonConProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonConProduto.ForeColor = System.Drawing.Color.OliveDrab;
-            this.buttonConProduto.Location = new System.Drawing.Point(474, 495);
+            this.buttonConProduto.Location = new System.Drawing.Point(317, 435);
             this.buttonConProduto.Name = "buttonConProduto";
             this.buttonConProduto.Size = new System.Drawing.Size(225, 55);
             this.buttonConProduto.TabIndex = 8;
@@ -227,7 +227,7 @@
             this.buttonCADProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCADProduto.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCADProduto.ForeColor = System.Drawing.Color.OliveDrab;
-            this.buttonCADProduto.Location = new System.Drawing.Point(474, 434);
+            this.buttonCADProduto.Location = new System.Drawing.Point(317, 374);
             this.buttonCADProduto.Name = "buttonCADProduto";
             this.buttonCADProduto.Size = new System.Drawing.Size(225, 55);
             this.buttonCADProduto.TabIndex = 7;
@@ -243,7 +243,7 @@
             this.buttonRelatorios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRelatorios.Font = new System.Drawing.Font("Times New Roman", 15.75F);
             this.buttonRelatorios.ForeColor = System.Drawing.Color.Purple;
-            this.buttonRelatorios.Location = new System.Drawing.Point(1554, 434);
+            this.buttonRelatorios.Location = new System.Drawing.Point(1099, 374);
             this.buttonRelatorios.Name = "buttonRelatorios";
             this.buttonRelatorios.Size = new System.Drawing.Size(225, 55);
             this.buttonRelatorios.TabIndex = 15;
@@ -257,7 +257,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizzaria_shu_menu_principal__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1884, 869);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonRelatorios);
             this.Controls.Add(this.buttonEXCProduto);
             this.Controls.Add(this.buttonATUProduto);

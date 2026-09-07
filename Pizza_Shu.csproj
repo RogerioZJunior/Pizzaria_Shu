@@ -293,5 +293,8 @@
   <ItemGroup>
     <None Include="Resources\pizzaria shu menu principal %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza shu sem nada.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

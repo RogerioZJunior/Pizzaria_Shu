@@ -213,6 +213,16 @@ namespace Pizza_Shu.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pizza_shu_sem_nada {
+            get {
+                object obj = ResourceManager.GetObject("pizza shu sem nada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pizzaria_shu_menu {
             get {
                 object obj = ResourceManager.GetObject("pizzaria_shu menu", resourceCulture);

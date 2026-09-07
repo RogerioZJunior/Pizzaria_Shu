@@ -43,6 +43,7 @@
             this.buttonEXCVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEXCVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXCVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonEXCVoltar.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonEXCVoltar.Location = new System.Drawing.Point(659, 427);
             this.buttonEXCVoltar.Name = "buttonEXCVoltar";
             this.buttonEXCVoltar.Size = new System.Drawing.Size(145, 55);
@@ -69,6 +70,7 @@
             this.buttonEXCExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEXCExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXCExcluir.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonEXCExcluir.ForeColor = System.Drawing.Color.OliveDrab;
             this.buttonEXCExcluir.Location = new System.Drawing.Point(931, 302);
             this.buttonEXCExcluir.Name = "buttonEXCExcluir";
             this.buttonEXCExcluir.Size = new System.Drawing.Size(145, 55);
@@ -85,7 +87,7 @@
             this.label7.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label7.Location = new System.Drawing.Point(394, 313);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 31);
+            this.label7.Size = new System.Drawing.Size(114, 31);
             this.label7.TabIndex = 37;
             this.label7.Text = "🪪Código:";
             // 
@@ -105,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.buttonEXCVoltar);

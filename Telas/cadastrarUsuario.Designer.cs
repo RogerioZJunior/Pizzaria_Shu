@@ -67,7 +67,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(402, 195);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 31);
+            this.label2.Size = new System.Drawing.Size(112, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "👤Nome:";
             // 
@@ -79,7 +79,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label3.Location = new System.Drawing.Point(370, 245);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(146, 31);
+            this.label3.Size = new System.Drawing.Size(144, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "📞Telefone:";
             // 
@@ -124,6 +124,7 @@
             this.textBoxNome.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxNome.BackColor = System.Drawing.Color.Ivory;
             this.textBoxNome.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNome.ForeColor = System.Drawing.Color.Black;
             this.textBoxNome.Location = new System.Drawing.Point(522, 188);
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(394, 44);
@@ -181,10 +182,11 @@
             // buttonCadastrar
             // 
             this.buttonCadastrar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonCadastrar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCadastrar.BackColor = System.Drawing.Color.White;
             this.buttonCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCadastrar.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCadastrar.ForeColor = System.Drawing.Color.Red;
             this.buttonCadastrar.Location = new System.Drawing.Point(649, 541);
             this.buttonCadastrar.Name = "buttonCadastrar";
             this.buttonCadastrar.Size = new System.Drawing.Size(145, 55);
@@ -200,6 +202,7 @@
             this.buttonCADVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonCADVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCADVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.buttonCADVoltar.ForeColor = System.Drawing.Color.Red;
             this.buttonCADVoltar.Location = new System.Drawing.Point(1213, 682);
             this.buttonCADVoltar.Name = "buttonCADVoltar";
             this.buttonCADVoltar.Size = new System.Drawing.Size(145, 55);
@@ -226,7 +229,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor2;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(971, 192);
+            this.pictureBox1.Location = new System.Drawing.Point(968, 276);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(335, 285);
             this.pictureBox1.TabIndex = 14;
@@ -236,7 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.fundo;
+            this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.pictureBox1);
