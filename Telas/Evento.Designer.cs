@@ -47,7 +47,7 @@
             // buttonEVEVoltar
             // 
             this.buttonEVEVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonEVEVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEVEVoltar.BackColor = System.Drawing.Color.White;
             this.buttonEVEVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEVEVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEVEVoltar.ForeColor = System.Drawing.Color.DodgerBlue;
@@ -86,7 +86,7 @@
             // 
             // buttonSelecionar
             // 
-            this.buttonSelecionar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonSelecionar.BackColor = System.Drawing.Color.White;
             this.buttonSelecionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSelecionar.ForeColor = System.Drawing.Color.DodgerBlue;
@@ -111,7 +111,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.Ivory;
+            this.comboBox1.BackColor = System.Drawing.Color.White;
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
@@ -127,7 +127,7 @@
             // 
             // textBoxCodigo
             // 
-            this.textBoxCodigo.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxCodigo.BackColor = System.Drawing.Color.White;
             this.textBoxCodigo.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.textBoxCodigo.Location = new System.Drawing.Point(77, 142);
             this.textBoxCodigo.Name = "textBoxCodigo";
@@ -148,7 +148,7 @@
             // 
             // buttonAtualizar
             // 
-            this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonAtualizar.BackColor = System.Drawing.Color.White;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAtualizar.ForeColor = System.Drawing.Color.DodgerBlue;
@@ -201,6 +201,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "Evento";
             this.Text = "Evento";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

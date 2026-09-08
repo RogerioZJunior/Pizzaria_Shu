@@ -62,6 +62,7 @@
             // 
             // panelTotalPedidos
             // 
+            this.panelTotalPedidos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelTotalPedidos.BackColor = System.Drawing.Color.Transparent;
             this.panelTotalPedidos.Controls.Add(this.labelnNumeroTotalPedidos);
             this.panelTotalPedidos.ForeColor = System.Drawing.Color.Black;
@@ -73,10 +74,11 @@
             // 
             // labelnNumeroTotalPedidos
             // 
+            this.labelnNumeroTotalPedidos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelnNumeroTotalPedidos.AutoSize = true;
             this.labelnNumeroTotalPedidos.BackColor = System.Drawing.Color.Transparent;
             this.labelnNumeroTotalPedidos.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelnNumeroTotalPedidos.Location = new System.Drawing.Point(100, 104);
+            this.labelnNumeroTotalPedidos.Location = new System.Drawing.Point(100, 121);
             this.labelnNumeroTotalPedidos.Name = "labelnNumeroTotalPedidos";
             this.labelnNumeroTotalPedidos.Size = new System.Drawing.Size(21, 23);
             this.labelnNumeroTotalPedidos.TabIndex = 3;
@@ -85,6 +87,7 @@
             // 
             // panelPedidoEntregues
             // 
+            this.panelPedidoEntregues.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelPedidoEntregues.BackColor = System.Drawing.Color.Transparent;
             this.panelPedidoEntregues.Controls.Add(this.labelNumeroPedidoEntregue);
             this.panelPedidoEntregues.ForeColor = System.Drawing.Color.Black;
@@ -96,10 +99,11 @@
             // 
             // labelNumeroPedidoEntregue
             // 
+            this.labelNumeroPedidoEntregue.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNumeroPedidoEntregue.AutoSize = true;
             this.labelNumeroPedidoEntregue.BackColor = System.Drawing.Color.Transparent;
             this.labelNumeroPedidoEntregue.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumeroPedidoEntregue.Location = new System.Drawing.Point(86, 104);
+            this.labelNumeroPedidoEntregue.Location = new System.Drawing.Point(102, 121);
             this.labelNumeroPedidoEntregue.Name = "labelNumeroPedidoEntregue";
             this.labelNumeroPedidoEntregue.Size = new System.Drawing.Size(21, 23);
             this.labelNumeroPedidoEntregue.TabIndex = 3;
@@ -108,6 +112,7 @@
             // 
             // panelFaturamento
             // 
+            this.panelFaturamento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelFaturamento.BackColor = System.Drawing.Color.Transparent;
             this.panelFaturamento.Controls.Add(this.labelNumeroFaturamento);
             this.panelFaturamento.ForeColor = System.Drawing.Color.Black;
@@ -119,10 +124,11 @@
             // 
             // labelNumeroFaturamento
             // 
+            this.labelNumeroFaturamento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNumeroFaturamento.AutoSize = true;
             this.labelNumeroFaturamento.BackColor = System.Drawing.Color.Transparent;
             this.labelNumeroFaturamento.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumeroFaturamento.Location = new System.Drawing.Point(66, 62);
+            this.labelNumeroFaturamento.Location = new System.Drawing.Point(69, 105);
             this.labelNumeroFaturamento.Name = "labelNumeroFaturamento";
             this.labelNumeroFaturamento.Size = new System.Drawing.Size(21, 23);
             this.labelNumeroFaturamento.TabIndex = 3;
@@ -131,6 +137,7 @@
             // 
             // panelPedidosCancelados
             // 
+            this.panelPedidosCancelados.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelPedidosCancelados.BackColor = System.Drawing.Color.Transparent;
             this.panelPedidosCancelados.Controls.Add(this.labelNumeroPedidoCancelado);
             this.panelPedidosCancelados.ForeColor = System.Drawing.Color.Black;
@@ -142,10 +149,11 @@
             // 
             // labelNumeroPedidoCancelado
             // 
+            this.labelNumeroPedidoCancelado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNumeroPedidoCancelado.AutoSize = true;
             this.labelNumeroPedidoCancelado.BackColor = System.Drawing.Color.Transparent;
             this.labelNumeroPedidoCancelado.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumeroPedidoCancelado.Location = new System.Drawing.Point(100, 76);
+            this.labelNumeroPedidoCancelado.Location = new System.Drawing.Point(100, 117);
             this.labelNumeroPedidoCancelado.Name = "labelNumeroPedidoCancelado";
             this.labelNumeroPedidoCancelado.Size = new System.Drawing.Size(21, 23);
             this.labelNumeroPedidoCancelado.TabIndex = 3;
@@ -154,8 +162,8 @@
             // 
             // buttonSairRelatorio
             // 
-            this.buttonSairRelatorio.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonSairRelatorio.BackColor = System.Drawing.Color.Ivory;
+            this.buttonSairRelatorio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonSairRelatorio.BackColor = System.Drawing.Color.White;
             this.buttonSairRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSairRelatorio.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSairRelatorio.ForeColor = System.Drawing.Color.Purple;
@@ -169,6 +177,7 @@
             // 
             // panelOrcamentoTotal
             // 
+            this.panelOrcamentoTotal.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelOrcamentoTotal.BackColor = System.Drawing.Color.Transparent;
             this.panelOrcamentoTotal.Controls.Add(this.labelNumeroTotalDeOrcamento);
             this.panelOrcamentoTotal.ForeColor = System.Drawing.Color.Black;
@@ -180,10 +189,11 @@
             // 
             // labelNumeroTotalDeOrcamento
             // 
+            this.labelNumeroTotalDeOrcamento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNumeroTotalDeOrcamento.AutoSize = true;
             this.labelNumeroTotalDeOrcamento.BackColor = System.Drawing.Color.Transparent;
             this.labelNumeroTotalDeOrcamento.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumeroTotalDeOrcamento.Location = new System.Drawing.Point(45, 76);
+            this.labelNumeroTotalDeOrcamento.Location = new System.Drawing.Point(43, 105);
             this.labelNumeroTotalDeOrcamento.Name = "labelNumeroTotalDeOrcamento";
             this.labelNumeroTotalDeOrcamento.Size = new System.Drawing.Size(21, 23);
             this.labelNumeroTotalDeOrcamento.TabIndex = 3;
@@ -192,6 +202,7 @@
             // 
             // panelEventosConcluidos
             // 
+            this.panelEventosConcluidos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelEventosConcluidos.BackColor = System.Drawing.Color.Transparent;
             this.panelEventosConcluidos.Controls.Add(this.labelEventoConcluido);
             this.panelEventosConcluidos.ForeColor = System.Drawing.Color.Black;
@@ -203,10 +214,11 @@
             // 
             // labelEventoConcluido
             // 
+            this.labelEventoConcluido.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelEventoConcluido.AutoSize = true;
             this.labelEventoConcluido.BackColor = System.Drawing.Color.Transparent;
             this.labelEventoConcluido.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEventoConcluido.Location = new System.Drawing.Point(89, 104);
+            this.labelEventoConcluido.Location = new System.Drawing.Point(89, 121);
             this.labelEventoConcluido.Name = "labelEventoConcluido";
             this.labelEventoConcluido.Size = new System.Drawing.Size(21, 23);
             this.labelEventoConcluido.TabIndex = 3;
@@ -215,6 +227,7 @@
             // 
             // panelEventosTotais
             // 
+            this.panelEventosTotais.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelEventosTotais.BackColor = System.Drawing.Color.Transparent;
             this.panelEventosTotais.Controls.Add(this.labelTotalEvento);
             this.panelEventosTotais.ForeColor = System.Drawing.Color.Black;
@@ -226,10 +239,11 @@
             // 
             // labelTotalEvento
             // 
+            this.labelTotalEvento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelTotalEvento.AutoSize = true;
             this.labelTotalEvento.BackColor = System.Drawing.Color.Transparent;
             this.labelTotalEvento.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotalEvento.Location = new System.Drawing.Point(89, 104);
+            this.labelTotalEvento.Location = new System.Drawing.Point(89, 121);
             this.labelTotalEvento.Name = "labelTotalEvento";
             this.labelTotalEvento.Size = new System.Drawing.Size(21, 23);
             this.labelTotalEvento.TabIndex = 3;
@@ -238,6 +252,7 @@
             // 
             // panelEventoCancelado
             // 
+            this.panelEventoCancelado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelEventoCancelado.BackColor = System.Drawing.Color.Transparent;
             this.panelEventoCancelado.Controls.Add(this.labelNumeroEventosCancelado);
             this.panelEventoCancelado.ForeColor = System.Drawing.Color.Black;
@@ -249,10 +264,11 @@
             // 
             // labelNumeroEventosCancelado
             // 
+            this.labelNumeroEventosCancelado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNumeroEventosCancelado.AutoSize = true;
             this.labelNumeroEventosCancelado.BackColor = System.Drawing.Color.Transparent;
             this.labelNumeroEventosCancelado.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumeroEventosCancelado.Location = new System.Drawing.Point(89, 76);
+            this.labelNumeroEventosCancelado.Location = new System.Drawing.Point(89, 117);
             this.labelNumeroEventosCancelado.Name = "labelNumeroEventosCancelado";
             this.labelNumeroEventosCancelado.Size = new System.Drawing.Size(21, 23);
             this.labelNumeroEventosCancelado.TabIndex = 3;
@@ -269,12 +285,13 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(1119, 304);
+            this.pictureBox2.Location = new System.Drawing.Point(1143, 407);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(253, 308);
+            this.pictureBox2.Size = new System.Drawing.Size(229, 205);
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
@@ -297,6 +314,8 @@
             this.Controls.Add(this.panelPedidoEntregues);
             this.Controls.Add(this.panelTotalPedidos);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "Relatorio";
             this.Text = "Relatórios";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

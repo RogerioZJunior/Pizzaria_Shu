@@ -74,7 +74,6 @@ C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\bin\Debug\System.Numerics.Vec
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.csproj.AssemblyReference.cache
-C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.exe.config
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.atualizarUsuario.resources
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.cadastrarUsuario.resources
 C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Telas.consultarUsuario.resources
@@ -199,3 +198,5 @@ C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.csproj.Up2Dat
 C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.exe
 C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.pdb
 C:\Users\Recuperacao\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Relatorio.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.Relatorio.resources
+C:\Users\rogerio.zjunior\source\repos\Pizzaria_Shu\obj\Debug\Pizza_Shu.exe.config

@@ -146,13 +146,13 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor2;
+            this.pictureBox2.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(56, 272);
+            this.pictureBox2.Location = new System.Drawing.Point(36, 281);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(335, 285);
+            this.pictureBox2.Size = new System.Drawing.Size(355, 303);
             this.pictureBox2.TabIndex = 60;
             this.pictureBox2.TabStop = false;
             // 
@@ -173,6 +173,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "Login";
             this.Text = "Login";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

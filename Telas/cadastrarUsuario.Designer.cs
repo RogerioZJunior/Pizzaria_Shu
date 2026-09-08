@@ -67,7 +67,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(402, 195);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 31);
+            this.label2.Size = new System.Drawing.Size(117, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "👤Nome:";
             // 
@@ -79,7 +79,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label3.Location = new System.Drawing.Point(370, 245);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 31);
+            this.label3.Size = new System.Drawing.Size(146, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "📞Telefone:";
             // 
@@ -122,7 +122,7 @@
             // textBoxNome
             // 
             this.textBoxNome.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxNome.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxNome.BackColor = System.Drawing.Color.White;
             this.textBoxNome.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNome.ForeColor = System.Drawing.Color.Black;
             this.textBoxNome.Location = new System.Drawing.Point(522, 188);
@@ -134,7 +134,7 @@
             // textBoxEndereco
             // 
             this.textBoxEndereco.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxEndereco.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxEndereco.BackColor = System.Drawing.Color.White;
             this.textBoxEndereco.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxEndereco.Location = new System.Drawing.Point(525, 288);
             this.textBoxEndereco.Name = "textBoxEndereco";
@@ -145,7 +145,7 @@
             // textBoxEmail
             // 
             this.textBoxEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxEmail.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxEmail.BackColor = System.Drawing.Color.White;
             this.textBoxEmail.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxEmail.Location = new System.Drawing.Point(525, 371);
             this.textBoxEmail.Name = "textBoxEmail";
@@ -156,7 +156,7 @@
             // textBoxSenha
             // 
             this.textBoxSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxSenha.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxSenha.BackColor = System.Drawing.Color.White;
             this.textBoxSenha.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxSenha.Location = new System.Drawing.Point(525, 421);
             this.textBoxSenha.Name = "textBoxSenha";
@@ -198,7 +198,7 @@
             // buttonCADVoltar
             // 
             this.buttonCADVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCADVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCADVoltar.BackColor = System.Drawing.Color.White;
             this.buttonCADVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonCADVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCADVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
@@ -214,7 +214,7 @@
             // maskedTextBoxTelefone
             // 
             this.maskedTextBoxTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.maskedTextBoxTelefone.BackColor = System.Drawing.Color.Ivory;
+            this.maskedTextBoxTelefone.BackColor = System.Drawing.Color.White;
             this.maskedTextBoxTelefone.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.maskedTextBoxTelefone.Location = new System.Drawing.Point(525, 238);
             this.maskedTextBoxTelefone.Mask = "(99) 00000-0000";
@@ -227,7 +227,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor2;
+            this.pictureBox1.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(968, 276);
             this.pictureBox1.Name = "pictureBox1";
@@ -258,6 +258,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "cadastrarUsuario";
             this.Text = "Cadastrar Usuário";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

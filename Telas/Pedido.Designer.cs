@@ -39,15 +39,13 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonSelecionar = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonPedidoVoltar
             // 
             this.buttonPedidoVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonPedidoVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonPedidoVoltar.BackColor = System.Drawing.Color.White;
             this.buttonPedidoVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPedidoVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPedidoVoltar.ForeColor = System.Drawing.Color.OrangeRed;
@@ -98,7 +96,7 @@
             // 
             // buttonAtualizar
             // 
-            this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonAtualizar.BackColor = System.Drawing.Color.White;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAtualizar.ForeColor = System.Drawing.Color.OrangeRed;
@@ -117,13 +115,13 @@
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(3, 138);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 19);
+            this.label7.Size = new System.Drawing.Size(73, 19);
             this.label7.TabIndex = 50;
             this.label7.Text = "📃Código:";
             // 
             // textBoxCodigo
             // 
-            this.textBoxCodigo.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxCodigo.BackColor = System.Drawing.Color.White;
             this.textBoxCodigo.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.textBoxCodigo.Location = new System.Drawing.Point(73, 129);
             this.textBoxCodigo.Name = "textBoxCodigo";
@@ -133,13 +131,12 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.Ivory;
+            this.comboBox1.BackColor = System.Drawing.Color.White;
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Pendente",
+            "Confirmado",
             "Pronto",
-            "A Caminho",
             "Entregue",
             "Cancelado"});
             this.comboBox1.Location = new System.Drawing.Point(73, 239);
@@ -162,28 +159,17 @@
             // 
             // buttonSelecionar
             // 
-            this.buttonSelecionar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonSelecionar.BackColor = System.Drawing.Color.White;
             this.buttonSelecionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSelecionar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSelecionar.ForeColor = System.Drawing.Color.OrangeRed;
-            this.buttonSelecionar.Location = new System.Drawing.Point(317, 127);
+            this.buttonSelecionar.Location = new System.Drawing.Point(317, 124);
             this.buttonSelecionar.Name = "buttonSelecionar";
             this.buttonSelecionar.Size = new System.Drawing.Size(113, 40);
             this.buttonSelecionar.TabIndex = 4;
             this.buttonSelecionar.Text = "📜Selecionar";
             this.buttonSelecionar.UseVisualStyleBackColor = false;
             this.buttonSelecionar.Click += new System.EventHandler(this.buttonSelecionar_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(38, 439);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(340, 226);
-            this.pictureBox2.TabIndex = 64;
-            this.pictureBox2.TabStop = false;
             // 
             // Pedido
             // 
@@ -192,7 +178,6 @@
             this.BackgroundImage = global::Pizza_Shu.Properties.Resources.pizza_shu_sem_nada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttonSelecionar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comboBox1);
@@ -205,12 +190,13 @@
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "Pedido";
             this.Text = "Pedido";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Pedido_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,6 +214,5 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonSelecionar;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

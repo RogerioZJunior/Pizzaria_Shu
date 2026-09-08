@@ -64,7 +64,7 @@
             // textBoxNomeProduto
             // 
             this.textBoxNomeProduto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxNomeProduto.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxNomeProduto.BackColor = System.Drawing.Color.White;
             this.textBoxNomeProduto.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxNomeProduto.Location = new System.Drawing.Point(271, 206);
             this.textBoxNomeProduto.Name = "textBoxNomeProduto";
@@ -80,7 +80,7 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label4.Location = new System.Drawing.Point(151, 390);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 31);
+            this.label4.Size = new System.Drawing.Size(114, 31);
             this.label4.TabIndex = 16;
             this.label4.Text = "💲Preço:";
             // 
@@ -92,7 +92,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label3.Location = new System.Drawing.Point(106, 296);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 31);
+            this.label3.Size = new System.Drawing.Size(159, 31);
             this.label3.TabIndex = 15;
             this.label3.Text = "📃Descrição:";
             // 
@@ -104,7 +104,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label2.Location = new System.Drawing.Point(148, 213);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 31);
+            this.label2.Size = new System.Drawing.Size(117, 31);
             this.label2.TabIndex = 14;
             this.label2.Text = "🍕Nome:";
             // 
@@ -123,7 +123,7 @@
             // textBoxDescricaoProduto
             // 
             this.textBoxDescricaoProduto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxDescricaoProduto.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxDescricaoProduto.BackColor = System.Drawing.Color.White;
             this.textBoxDescricaoProduto.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxDescricaoProduto.Location = new System.Drawing.Point(271, 256);
             this.textBoxDescricaoProduto.Multiline = true;
@@ -135,7 +135,7 @@
             // textBoxQuantidadeProduto
             // 
             this.textBoxQuantidadeProduto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxQuantidadeProduto.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxQuantidadeProduto.BackColor = System.Drawing.Color.White;
             this.textBoxQuantidadeProduto.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxQuantidadeProduto.Location = new System.Drawing.Point(844, 206);
             this.textBoxQuantidadeProduto.Name = "textBoxQuantidadeProduto";
@@ -170,7 +170,7 @@
             // comboBoxCategoriaProduto
             // 
             this.comboBoxCategoriaProduto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBoxCategoriaProduto.BackColor = System.Drawing.Color.Ivory;
+            this.comboBoxCategoriaProduto.BackColor = System.Drawing.Color.White;
             this.comboBoxCategoriaProduto.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.comboBoxCategoriaProduto.FormattingEnabled = true;
             this.comboBoxCategoriaProduto.Items.AddRange(new object[] {
@@ -188,7 +188,7 @@
             // buttonCADProdutoVoltar
             // 
             this.buttonCADProdutoVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCADProdutoVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCADProdutoVoltar.BackColor = System.Drawing.Color.White;
             this.buttonCADProdutoVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCADProdutoVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.buttonCADProdutoVoltar.ForeColor = System.Drawing.Color.OliveDrab;
@@ -203,7 +203,7 @@
             // textBoxPrecoProduto
             // 
             this.textBoxPrecoProduto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxPrecoProduto.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxPrecoProduto.BackColor = System.Drawing.Color.White;
             this.textBoxPrecoProduto.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxPrecoProduto.Location = new System.Drawing.Point(271, 383);
             this.textBoxPrecoProduto.Name = "textBoxPrecoProduto";
@@ -215,7 +215,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor1;
+            this.pictureBox1.BackgroundImage = global::Pizza_Shu.Properties.Resources.cartaozinho_feito_com_amor;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(700, 333);
             this.pictureBox1.Name = "pictureBox1";
@@ -245,6 +245,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "cadastrarProduto";
             this.Text = "Cadastrar Produto";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

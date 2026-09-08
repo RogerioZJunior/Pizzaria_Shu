@@ -97,6 +97,11 @@
     <Compile Include="DAOs\DAOProduto.cs" />
     <Compile Include="DAOs\DAOusuario.cs" />
     <Compile Include="DAOs\LogDAO.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Relatorio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -224,14 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Telas\Pedido.resx">
       <DependentUpon>Pedido.cs</DependentUpon>
     </EmbeddedResource>
@@ -250,67 +250,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\fundo do orçamento.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo pizza do shu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fundo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza_shu menu principal.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizzaria_shu menu.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fundo %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cartaozinho feito com amor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo bem vindo de volta pra colocar no login.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fundo ofical.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Fundo Oficial.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CASAL.PNG.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\casal2.png.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cartaozinho feito com amor1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\restaurante2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cartaozinho feito com amor2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Designer.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Designer %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizzaria shu menu principal %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza shu sem nada.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza_shu relatorios.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza_shu relatorios 2.jfif" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -62,7 +62,7 @@
             // buttonLogVoltar
             // 
             this.buttonLogVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonLogVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonLogVoltar.BackColor = System.Drawing.Color.White;
             this.buttonLogVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogVoltar.Location = new System.Drawing.Point(645, 697);
@@ -84,6 +84,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "log";
             this.Text = "Logs do Sistema";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

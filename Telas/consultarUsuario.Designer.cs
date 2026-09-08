@@ -63,7 +63,7 @@
             // buttonCONVoltar
             // 
             this.buttonCONVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonCONVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonCONVoltar.BackColor = System.Drawing.Color.White;
             this.buttonCONVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCONVoltar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCONVoltar.ForeColor = System.Drawing.Color.Red;
@@ -86,6 +86,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "consultarUsuario";
             this.Text = "Consultar Usuário";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -50,7 +50,7 @@
             // textBoxCodigoProduto
             // 
             this.textBoxCodigoProduto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxCodigoProduto.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxCodigoProduto.BackColor = System.Drawing.Color.White;
             this.textBoxCodigoProduto.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxCodigoProduto.Location = new System.Drawing.Point(554, 141);
             this.textBoxCodigoProduto.Name = "textBoxCodigoProduto";
@@ -61,7 +61,7 @@
             // buttonProcurar
             // 
             this.buttonProcurar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonProcurar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonProcurar.BackColor = System.Drawing.Color.White;
             this.buttonProcurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonProcurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProcurar.Font = new System.Drawing.Font("Times New Roman", 18F);
@@ -82,14 +82,14 @@
             this.label7.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label7.Location = new System.Drawing.Point(407, 141);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(114, 31);
+            this.label7.Size = new System.Drawing.Size(131, 31);
             this.label7.TabIndex = 44;
             this.label7.Text = "🪪Código:";
             // 
             // buttonAtualizar
             // 
             this.buttonAtualizar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonAtualizar.BackColor = System.Drawing.Color.White;
             this.buttonAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 18F);
@@ -105,7 +105,7 @@
             // textBoxATUQuantidade
             // 
             this.textBoxATUQuantidade.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUQuantidade.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUQuantidade.BackColor = System.Drawing.Color.White;
             this.textBoxATUQuantidade.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxATUQuantidade.Location = new System.Drawing.Point(554, 460);
             this.textBoxATUQuantidade.Name = "textBoxATUQuantidade";
@@ -116,7 +116,7 @@
             // textBoxATUNome
             // 
             this.textBoxATUNome.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUNome.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUNome.BackColor = System.Drawing.Color.White;
             this.textBoxATUNome.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxATUNome.Location = new System.Drawing.Point(554, 213);
             this.textBoxATUNome.Name = "textBoxATUNome";
@@ -144,7 +144,7 @@
             this.label5.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label5.Location = new System.Drawing.Point(424, 400);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 31);
+            this.label5.Size = new System.Drawing.Size(114, 31);
             this.label5.TabIndex = 35;
             this.label5.Text = "💲Preço:";
             // 
@@ -156,7 +156,7 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label4.Location = new System.Drawing.Point(379, 295);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(156, 31);
+            this.label4.Size = new System.Drawing.Size(159, 31);
             this.label4.TabIndex = 34;
             this.label4.Text = "📃Descrição:";
             // 
@@ -168,7 +168,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label2.Location = new System.Drawing.Point(421, 220);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 31);
+            this.label2.Size = new System.Drawing.Size(117, 31);
             this.label2.TabIndex = 32;
             this.label2.Text = "🍕Nome:";
             // 
@@ -199,7 +199,7 @@
             // comboBox1
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBox1.BackColor = System.Drawing.Color.Ivory;
+            this.comboBox1.BackColor = System.Drawing.Color.White;
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
@@ -217,7 +217,7 @@
             // textBoxATUDescricao
             // 
             this.textBoxATUDescricao.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUDescricao.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUDescricao.BackColor = System.Drawing.Color.White;
             this.textBoxATUDescricao.Font = new System.Drawing.Font("Times New Roman", 18F);
             this.textBoxATUDescricao.Location = new System.Drawing.Point(554, 263);
             this.textBoxATUDescricao.Multiline = true;
@@ -229,7 +229,7 @@
             // textBoxATUPreco
             // 
             this.textBoxATUPreco.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUPreco.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUPreco.BackColor = System.Drawing.Color.White;
             this.textBoxATUPreco.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxATUPreco.Location = new System.Drawing.Point(554, 387);
             this.textBoxATUPreco.Name = "textBoxATUPreco";
@@ -240,7 +240,7 @@
             // buttonATUVoltar
             // 
             this.buttonATUVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonATUVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonATUVoltar.BackColor = System.Drawing.Color.White;
             this.buttonATUVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonATUVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonATUVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
@@ -277,6 +277,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "atualizarProduto";
             this.Text = "Atualizar Produto";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -65,117 +65,7 @@ namespace Pizza_Shu.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap cartaozinho_feito_com_amor {
             get {
-                object obj = ResourceManager.GetObject("cartaozinho feito com amor", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cartaozinho_feito_com_amor1 {
-            get {
-                object obj = ResourceManager.GetObject("cartaozinho feito com amor1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cartaozinho_feito_com_amor2 {
-            get {
-                object obj = ResourceManager.GetObject("cartaozinho feito com amor2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap CASAL_PNG {
-            get {
-                object obj = ResourceManager.GetObject("CASAL.PNG", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap casal2_png {
-            get {
-                object obj = ResourceManager.GetObject("casal2.png", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Designer {
-            get {
-                object obj = ResourceManager.GetObject("Designer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Designer__1_ {
-            get {
-                object obj = ResourceManager.GetObject("Designer (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fundo {
-            get {
-                object obj = ResourceManager.GetObject("fundo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fundo__1_ {
-            get {
-                object obj = ResourceManager.GetObject("fundo (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fundo_do_orçamento {
-            get {
-                object obj = ResourceManager.GetObject("fundo do orçamento", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fundo_ofical {
-            get {
-                object obj = ResourceManager.GetObject("fundo ofical", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Fundo_Oficial {
-            get {
-                object obj = ResourceManager.GetObject("Fundo Oficial", resourceCulture);
+                object obj = ResourceManager.GetObject("cartaozinho_feito_com_amor", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -185,7 +75,7 @@ namespace Pizza_Shu.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap logo_bem_vindo_de_volta_pra_colocar_no_login {
             get {
-                object obj = ResourceManager.GetObject("logo bem vindo de volta pra colocar no login", resourceCulture);
+                object obj = ResourceManager.GetObject("logo_bem_vindo_de_volta_pra_colocar_no_login", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -195,27 +85,7 @@ namespace Pizza_Shu.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap logo_pizza_do_shu {
             get {
-                object obj = ResourceManager.GetObject("logo pizza do shu", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pizza_shu_menu_principal {
-            get {
-                object obj = ResourceManager.GetObject("pizza_shu menu principal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pizza_shu_relatorios {
-            get {
-                object obj = ResourceManager.GetObject("pizza_shu relatorios", resourceCulture);
+                object obj = ResourceManager.GetObject("logo_pizza_do_shu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -225,7 +95,7 @@ namespace Pizza_Shu.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap pizza_shu_relatorios_2 {
             get {
-                object obj = ResourceManager.GetObject("pizza_shu relatorios 2", resourceCulture);
+                object obj = ResourceManager.GetObject("pizza_shu_relatorios_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -235,17 +105,7 @@ namespace Pizza_Shu.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap pizza_shu_sem_nada {
             get {
-                object obj = ResourceManager.GetObject("pizza shu sem nada", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pizzaria_shu_menu {
-            get {
-                object obj = ResourceManager.GetObject("pizzaria_shu menu", resourceCulture);
+                object obj = ResourceManager.GetObject("pizza_shu_sem_nada", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -255,17 +115,7 @@ namespace Pizza_Shu.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap pizzaria_shu_menu_principal__1_ {
             get {
-                object obj = ResourceManager.GetObject("pizzaria shu menu principal (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap restaurante2 {
-            get {
-                object obj = ResourceManager.GetObject("restaurante2", resourceCulture);
+                object obj = ResourceManager.GetObject("pizzaria_shu_menu_principal_(1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

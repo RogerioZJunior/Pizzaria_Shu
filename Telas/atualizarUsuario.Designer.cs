@@ -51,7 +51,7 @@
             // maskedTextBoxATUTelefone
             // 
             this.maskedTextBoxATUTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.maskedTextBoxATUTelefone.BackColor = System.Drawing.Color.Ivory;
+            this.maskedTextBoxATUTelefone.BackColor = System.Drawing.Color.White;
             this.maskedTextBoxATUTelefone.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.maskedTextBoxATUTelefone.Location = new System.Drawing.Point(550, 312);
             this.maskedTextBoxATUTelefone.Mask = "(99) 00000-0000";
@@ -63,7 +63,7 @@
             // buttonAtualizar
             // 
             this.buttonAtualizar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonAtualizar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonAtualizar.BackColor = System.Drawing.Color.White;
             this.buttonAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAtualizar.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -94,7 +94,7 @@
             // textBoxATUSenha
             // 
             this.textBoxATUSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUSenha.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUSenha.BackColor = System.Drawing.Color.White;
             this.textBoxATUSenha.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxATUSenha.Location = new System.Drawing.Point(550, 479);
             this.textBoxATUSenha.Name = "textBoxATUSenha";
@@ -105,7 +105,7 @@
             // textBoxATUEmail
             // 
             this.textBoxATUEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUEmail.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUEmail.BackColor = System.Drawing.Color.White;
             this.textBoxATUEmail.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxATUEmail.Location = new System.Drawing.Point(550, 429);
             this.textBoxATUEmail.Name = "textBoxATUEmail";
@@ -116,7 +116,7 @@
             // textBoxATUEndereco
             // 
             this.textBoxATUEndereco.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUEndereco.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUEndereco.BackColor = System.Drawing.Color.White;
             this.textBoxATUEndereco.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxATUEndereco.Location = new System.Drawing.Point(550, 364);
             this.textBoxATUEndereco.Name = "textBoxATUEndereco";
@@ -127,7 +127,7 @@
             // textBoxATUNome
             // 
             this.textBoxATUNome.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxATUNome.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxATUNome.BackColor = System.Drawing.Color.White;
             this.textBoxATUNome.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxATUNome.Location = new System.Drawing.Point(550, 262);
             this.textBoxATUNome.Name = "textBoxATUNome";
@@ -179,7 +179,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label3.Location = new System.Drawing.Point(389, 325);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 31);
+            this.label3.Size = new System.Drawing.Size(146, 31);
             this.label3.TabIndex = 16;
             this.label3.Text = "📞Telefone:";
             // 
@@ -191,7 +191,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label2.Location = new System.Drawing.Point(418, 269);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 31);
+            this.label2.Size = new System.Drawing.Size(117, 31);
             this.label2.TabIndex = 15;
             this.label2.Text = "👤Nome:";
             // 
@@ -215,14 +215,14 @@
             this.label7.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label7.Location = new System.Drawing.Point(404, 184);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(114, 31);
+            this.label7.Size = new System.Drawing.Size(131, 31);
             this.label7.TabIndex = 28;
             this.label7.Text = "🪪Código:";
             // 
             // buttonProcurar
             // 
             this.buttonProcurar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonProcurar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonProcurar.BackColor = System.Drawing.Color.White;
             this.buttonProcurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonProcurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProcurar.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -238,7 +238,7 @@
             // textBoxCodigo
             // 
             this.textBoxCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxCodigo.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxCodigo.BackColor = System.Drawing.Color.White;
             this.textBoxCodigo.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxCodigo.Location = new System.Drawing.Point(550, 180);
             this.textBoxCodigo.Name = "textBoxCodigo";
@@ -249,7 +249,7 @@
             // buttonATUVoltar
             // 
             this.buttonATUVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonATUVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonATUVoltar.BackColor = System.Drawing.Color.White;
             this.buttonATUVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonATUVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonATUVoltar.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -287,6 +287,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "atualizarUsuario";
             this.Text = "Consultar Usuário";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

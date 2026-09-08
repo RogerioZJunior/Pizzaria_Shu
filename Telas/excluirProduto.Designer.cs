@@ -39,7 +39,7 @@
             // buttonEXCVoltar
             // 
             this.buttonEXCVoltar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonEXCVoltar.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEXCVoltar.BackColor = System.Drawing.Color.White;
             this.buttonEXCVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEXCVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXCVoltar.Font = new System.Drawing.Font("Times New Roman", 18F);
@@ -55,7 +55,7 @@
             // textBoxEXCCodigo
             // 
             this.textBoxEXCCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxEXCCodigo.BackColor = System.Drawing.Color.Ivory;
+            this.textBoxEXCCodigo.BackColor = System.Drawing.Color.White;
             this.textBoxEXCCodigo.Font = new System.Drawing.Font("Times New Roman", 24F);
             this.textBoxEXCCodigo.Location = new System.Drawing.Point(531, 306);
             this.textBoxEXCCodigo.Name = "textBoxEXCCodigo";
@@ -66,7 +66,7 @@
             // buttonEXCExcluir
             // 
             this.buttonEXCExcluir.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonEXCExcluir.BackColor = System.Drawing.Color.Ivory;
+            this.buttonEXCExcluir.BackColor = System.Drawing.Color.White;
             this.buttonEXCExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEXCExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEXCExcluir.Font = new System.Drawing.Font("Times New Roman", 18F);
@@ -87,7 +87,7 @@
             this.label7.Font = new System.Drawing.Font("Times New Roman", 20.25F);
             this.label7.Location = new System.Drawing.Point(394, 313);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(114, 31);
+            this.label7.Size = new System.Drawing.Size(131, 31);
             this.label7.TabIndex = 37;
             this.label7.Text = "🪪Código:";
             // 
@@ -116,6 +116,8 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1386, 788);
+            this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "excluirProduto";
             this.Text = "Excluir Produto";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
