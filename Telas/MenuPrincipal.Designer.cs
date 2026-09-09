@@ -275,8 +275,8 @@
             this.MaximumSize = new System.Drawing.Size(1472, 853);
             this.MinimumSize = new System.Drawing.Size(1472, 853);
             this.Name = "MenuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.ResumeLayout(false);
 

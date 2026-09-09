@@ -248,8 +248,8 @@
             this.MaximumSize = new System.Drawing.Size(1386, 788);
             this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "cadastrarProduto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar Produto";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.cadastrarProduto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

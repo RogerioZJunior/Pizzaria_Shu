@@ -119,8 +119,8 @@
             this.MaximumSize = new System.Drawing.Size(1386, 788);
             this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "excluirProduto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Excluir Produto";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.excluirProduto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

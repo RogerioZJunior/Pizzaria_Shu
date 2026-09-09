@@ -261,8 +261,8 @@
             this.MaximumSize = new System.Drawing.Size(1386, 788);
             this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "cadastrarUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar Usuário";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.cadastrarUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

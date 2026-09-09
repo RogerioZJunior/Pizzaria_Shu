@@ -317,8 +317,8 @@
             this.MaximumSize = new System.Drawing.Size(1386, 788);
             this.MinimumSize = new System.Drawing.Size(1386, 788);
             this.Name = "Relatorio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Relatórios";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Relatorio_Load);
             this.panelTotalPedidos.ResumeLayout(false);
             this.panelTotalPedidos.PerformLayout();

@@ -151,10 +151,14 @@ namespace Pizza_Shu.DAOs
                     string sql = @"
                     SELECT 
                         e.codigo AS Codigo,
+                        e.nome   AS 'Nome do Cliente',
+                        e.Whatsapp  AS 'Número do Whatsapp',
+                        e.email     AS  Email,
                         e.nome_evento AS 'Nome do Evento',
                         e.data_evento AS Data,
                         e.orcamento AS Orçamento,
                         e.quantidade_pessoa AS 'Quantidade de Pessoas',
+                        e.observacoes  As Obeservações, 
                         e.statuss AS Status,
                         e.usuario_codigo AS Usuário
                
